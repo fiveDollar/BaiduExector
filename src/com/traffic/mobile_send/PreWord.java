@@ -1,4 +1,3 @@
-import org.jsoup.nodes.Element;
 package com.traffic.mobile_send;
 
 import java.net.URI;
