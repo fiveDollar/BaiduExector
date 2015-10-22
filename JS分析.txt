@@ -1,0 +1,45 @@
+//在执行一开始记录start 
+PageTimer.start = new Date().getTime();
+
+//头部加载之后记录header
+PageTimer.header = new Date().getTime() - PageTimer.start;
+
+//默认插件加载完之后
+PageTimer.plus_default = new Date().getTime() - PageTimer.start;
+
+
+localStore({type:"index"})
+
+ function t(e) {
+        var t = this
+          , r = e;
+        t.conf = {};
+        for (var a in r)
+            t.conf[a] = r[a];
+        switch (n && (t.speed = {
+            tag: "index",
+            start: (new Date).getTime()
+        }),
+        t.exeCodeQueue = [],
+        t.exeCoderQueue = {},
+        t.pubVersion = {},
+        t.conf.type) {
+        case "index":
+            t.init = t.indexInit;
+            break;
+        case "search":
+            t.init = t.searchInit;
+            break;
+        case "search-newi":
+            t.init = t.searchNewiInit
+        }
+        return t.init(),
+        t
+    }
+
+
+
+  prefix Version value
+
+
+  

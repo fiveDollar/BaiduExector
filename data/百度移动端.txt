@@ -1,0 +1,4939 @@
+request1:
+Request:https://www.baidu.com/ 
+GET
+Cookie: 
+Header: 
+Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+Upgrade-Insecure-Requests 1
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:34 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Connection keep-alive
+P3P CP=" OTI DSP COR IVA OUR IND COM "
+traceid 144523791408307860589350759854123656534
+Cache-Control no-cache
+Set-Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; max-age=31536000; expires=Tue, 18-Oct-16 06:58:34 GMT; domain=.baidu.com; path=/; version=1
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0; expires=Mon, 19-Oct-15 06:58:39 GMT; domain=www.baidu.com; path=/
+Content-Type text/html;charset=utf-8
+Content-Length 16882
+
+
+request2:
+Request:https://m.baidu.com/static/index/plus/plus_logo.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 10:04:59 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 4493
+traceid 1444989898070738381818188578830047412751
+expires Sat, 15 Oct 2016 10:04:58 GMT
+
+
+request3:
+Request:https://m.baidu.com/static/index/iconfont/iconfont_c72511c6.woff 
+GET
+Cookie: 
+Header: 
+Origin https://www.baidu.com
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 10:04:59 GMT
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type application/octet-stream
+status 200 OK
+expires Sat, 15 Oct 2016 10:04:59 GMT
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 14316
+traceid 144498989907428390503044411062027110616
+version HTTP/1.1
+
+
+request4:
+Request:https://m.baidu.com/static/index/icon/w_icon2.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 10:04:59 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 2167
+traceid 1444989899080817818618078003780237749813
+expires Sat, 15 Oct 2016 10:04:59 GMT
+
+
+request5:
+Request:https://www.baidu.com/?action=static&ms=1&version=css_page_2@0,css_callapp@0,css_weather@0,css_icon@0,css_plus@0,css_edit@0,css_modal@0,css_widget_sug@0,js_zepto@0,js_index@0,js_banner_ctrl@0,js_inputlog@0,js_bdnow@0,js_tpl_function@0,js_widget_textinput@0,js_widget_sug@0,js_fastclick@0,js_mp@0,js_hash_lib@0,js_utils@0,js_prefetch@0,js_sug@0,js_iscroll@0,js_init@0,js_geolocation@0,js_login@0,js_plus@0,js_md5@0,js_plus_edit@0,js_lswrite@0,js_modal@0,js_baiduloc@0,js_callbaiduapp_android@0&callback=B.getCode&r=16 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0
+Connection keep-alive
+
+queryString: 
+action static
+ms 1
+version css_page_2@0,css_callapp@0,css_weather@0,css_icon@0,css_plus@0,css_edit@0,css_modal@0,css_widget_sug@0,js_zepto@0,js_index@0,js_banner_ctrl@0,js_inputlog@0,js_bdnow@0,js_tpl_function@0,js_widget_textinput@0,js_widget_sug@0,js_fastclick@0,js_mp@0,js_hash_lib@0,js_utils@0,js_prefetch@0,js_sug@0,js_iscroll@0,js_init@0,js_geolocation@0,js_login@0,js_plus@0,js_md5@0,js_plus_edit@0,js_lswrite@0,js_modal@0,js_baiduloc@0,js_callbaiduapp_android@0
+callback B.getCode
+r 16
+
+Response:200 
+
+content:   
+
+Cookie: H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:18308526112213641690_00_0_I_R_48_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:34 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 1445237914032746957810509940427660180958
+Cache-Control no-cache
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=18308526112213641690_00_0_I_R_48_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:39 GMT; domain=www.baidu.com; path=/
+Content-Length 63180
+
+
+request6:
+Request:https://www.baidu.com/static/tj.gif?time=1445237915221 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17821233566714203492_00_94_N_N_48_0303_C02F_N_N_Y_0
+Connection keep-alive
+
+queryString: 
+time 1445237915221
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2571680719095747228_00_167_N_N_1_0303_C02F_N_N_Y_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:34 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2571680719095747228_00_167_N_N_1_0303_C02F_N_N_Y_0; expires=Mon, 19-Oct-15 06:58:39 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:34 GMT
+
+
+request7:
+Request:https://m.baidu.com/static/search/ala/callicon.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 1302
+traceid 144523451802378183781754401489428606013
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request8:
+Request:https://m.baidu.com/static/search/clear.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 587
+traceid 144523451808081781861654062300235387831
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request9:
+Request:https://www.baidu.com/?ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ms=1&action=getplus&merge=1&plusmd5=%7B%7D&_=1445237915357&callback=jsonp1 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:18308526112213641690_00_0_I_R_48_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=18308526112213641690_00_0_I_R_48_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ms 1
+action getplus
+merge 1
+plusmd5 %7B%7D
+_ 1445237915357
+callback jsonp1
+
+Response:200 
+
+content:   
+
+Cookie: H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:30971576376954719_00_0_I_R_102_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:34 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Connection keep-alive
+Content-Type text/html;charset=utf-8
+traceid 144523791507804544108049864472313187703
+Cache-Control no-cache
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=30971576376954719_00_0_I_R_102_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:39 GMT; domain=www.baidu.com; path=/
+Content-Length 22319
+
+
+request10:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=lbs&clk_info=mainpage&card_index=2&r=1445237915512 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=lbs&clk_info=mainpage&card_index=2&r=1445237915512
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ct 10
+cst 1
+ref index_iphone
+lid 9350759854123656534
+w 0_0_
+clk_from lbs
+clk_info mainpage
+card_index 2
+r 1445237915512
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2817104856841372494_31_153_N_N_0_0303_C02F_Y_N_Y_0;
+Header: 
+date Mon, 19 Oct 2015 06:58:35 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=2817104856841372494_31_153_N_N_0_0303_C02F_Y_N_Y_0; expires=Mon, 19-Oct-15 06:58:40 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523791506827607142817104856841372494
+version HTTP/1.1
+
+
+request11:
+Request:https://m.baidu.com/static/index/plus/banner-logo.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 02:20:25 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 3846
+traceid 144496202507428390501431302945394399224
+expires Sat, 15 Oct 2016 02:20:25 GMT
+
+
+request12:
+Request:https://m.baidu.com/static/index/plus/close.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 02:20:25 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 523
+traceid 144496202508109967461562084429024616359
+expires Sat, 15 Oct 2016 02:20:25 GMT
+
+
+request13:
+Request:https://m.baidu.com/static/search/inapp/lib/openapp-v3-min.js?t=1445237915567 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /static/search/inapp/lib/openapp-v3-min.js?t=1445237915567
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+:scheme https
+:method GET
+
+queryString: 
+t 1445237915567
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2917478384235051873_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:58:35 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+version HTTP/1.1
+vary Accept-Encoding
+content-type application/x-javascript
+status 200 OK
+cache-control max-age=31536000
+set-cookie __bsi=2917478384235051873_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 06:58:40 GMT; domain=m.baidu.com; path=/
+traceid 144523791502396536422917478384235051873
+expires Tue, 18 Oct 2016 06:58:35 GMT
+
+
+request14:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=21&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&s_os=2&r=1445237915567 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=21&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&s_os=2&r=1445237915567
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ct 21
+cst 1
+ref index_iphone
+lid 9350759854123656534
+w 0_0_
+s_os 2
+r 1445237915567
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2951864991856670505_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:58:35 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=2951864991856670505_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 06:58:40 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523791502033679462951864991856670505
+version HTTP/1.1
+
+
+request15:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=0&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=page&r=1445237915577 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=0&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=page&r=1445237915577
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ct 10
+cst 0
+ref index_iphone
+lid 9350759854123656534
+w 0_0_
+clk_from page
+r 1445237915577
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1690412494801619444_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:58:35 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=1690412494801619444_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 06:58:40 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523791506902310501690412494801619444
+version HTTP/1.1
+
+
+request16:
+Request:https://www.baidu.com/static/tj.gif?time=1445237916235 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:30971576376954719_00_0_I_R_102_0303_C02F_N_I_I_0;PLUS:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=30971576376954719_00_0_I_R_102_0303_C02F_N_I_I_0; PLUS=1
+Connection keep-alive
+
+queryString: 
+time 1445237916235
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18123578283462920806_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:35 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18123578283462920806_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:40 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:35 GMT
+
+
+request17:
+Request:https://www.baidu.com/static/tj.gif?time=1445237917249 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18123578283462920806_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18123578283462920806_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237917249
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18182060177413716819_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:36 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18182060177413716819_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:41 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:36 GMT
+
+
+request18:
+Request:https://www.baidu.com/static/tj.gif?time=1445237918262 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18182060177413716819_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18182060177413716819_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237918262
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18078562525131322263_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:37 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18078562525131322263_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:42 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:37 GMT
+
+
+request19:
+Request:https://www.baidu.com/static/tj.gif?time=1445237919274 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18078562525131322263_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18078562525131322263_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237919274
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17637033440201954906_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:38 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17637033440201954906_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:43 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:38 GMT
+
+
+request20:
+Request:https://www.baidu.com/static/tj.gif?time=1445237920288 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17637033440201954906_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17637033440201954906_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237920288
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18113579496604162394_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:39 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18113579496604162394_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:44 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:39 GMT
+
+
+request21:
+Request:https://www.baidu.com/static/tj.gif?time=1445237921302 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18113579496604162394_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18113579496604162394_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237921302
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17992911445385881198_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:40 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17992911445385881198_00_0_I_R_3_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:45 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:40 GMT
+
+
+request22:
+Request:https://www.baidu.com/static/tj.gif?time=1445237922320 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17992911445385881198_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17992911445385881198_00_0_I_R_3_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237922320
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17788826771398179813_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:41 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17788826771398179813_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:46 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:41 GMT
+
+
+request23:
+Request:https://www.baidu.com/static/tj.gif?time=1445237923333 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17788826771398179813_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17788826771398179813_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237923333
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17828545542304263797_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:42 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17828545542304263797_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:47 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:42 GMT
+
+
+request24:
+Request:https://www.baidu.com/static/tj.gif?time=1445237924348 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17828545542304263797_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17828545542304263797_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237924348
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17872184909768167063_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:43 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17872184909768167063_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:48 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:43 GMT
+
+
+request25:
+Request:https://www.baidu.com/static/tj.gif?time=1445237925362 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17872184909768167063_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17872184909768167063_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237925362
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:39902058970273883_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:44 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=39902058970273883_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:49 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:44 GMT
+
+
+request26:
+Request:https://www.baidu.com/static/tj.gif?time=1445237926376 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:39902058970273883_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=39902058970273883_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237926376
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18054860580568138368_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:45 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18054860580568138368_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:50 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:45 GMT
+
+
+request27:
+Request:https://www.baidu.com/static/tj.gif?time=1445237927390 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18054860580568138368_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18054860580568138368_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237927390
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18158627295428375330_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:46 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18158627295428375330_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:51 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:46 GMT
+
+
+request28:
+Request:https://www.baidu.com/static/tj.gif?time=1445237928404 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18158627295428375330_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18158627295428375330_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237928404
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18229557872849929515_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:47 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18229557872849929515_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:52 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:47 GMT
+
+
+request29:
+Request:https://www.baidu.com/static/tj.gif?time=1445237929418 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18229557872849929515_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18229557872849929515_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237929418
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18379496701646494103_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:48 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18379496701646494103_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:53 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:48 GMT
+
+
+request30:
+Request:https://www.baidu.com/static/tj.gif?time=1445237930433 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18379496701646494103_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18379496701646494103_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237930433
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:173657712926700922_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:49 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=173657712926700922_00_0_I_R_3_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:54 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:49 GMT
+
+
+request31:
+Request:https://www.baidu.com/static/tj.gif?time=1445237931448 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:173657712926700922_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=173657712926700922_00_0_I_R_3_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237931448
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17881970253984318800_00_0_I_R_14_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:50 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17881970253984318800_00_0_I_R_14_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:55 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:50 GMT
+
+
+request32:
+Request:https://www.baidu.com/static/tj.gif?time=1445237932474 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17881970253984318800_00_0_I_R_14_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17881970253984318800_00_0_I_R_14_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237932474
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:13735807862359049109_00_0_I_R_4_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:52 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=13735807862359049109_00_0_I_R_4_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:57 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:52 GMT
+
+
+request33:
+Request:https://www.baidu.com/static/tj.gif?time=1445237933491 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:13735807862359049109_00_0_I_R_4_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=13735807862359049109_00_0_I_R_4_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237933491
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15248935501640637195_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:53 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15248935501640637195_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:58 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:53 GMT
+
+
+request34:
+Request:https://www.baidu.com/static/tj.gif?time=1445237934505 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15248935501640637195_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15248935501640637195_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237934505
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15124309934555468627_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:54 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15124309934555468627_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:58:59 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:54 GMT
+
+
+request35:
+Request:https://www.baidu.com/static/tj.gif?time=1445237935518 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15124309934555468627_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15124309934555468627_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237935518
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15039776280837052555_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:55 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15039776280837052555_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:00 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:55 GMT
+
+
+request36:
+Request:https://www.baidu.com/static/tj.gif?time=1445237936532 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15039776280837052555_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15039776280837052555_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237936532
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15678143605257857539_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:56 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15678143605257857539_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:01 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:56 GMT
+
+
+request37:
+Request:https://www.baidu.com/static/tj.gif?time=1445237937547 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15678143605257857539_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15678143605257857539_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237937547
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15427693225960499595_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:57 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15427693225960499595_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:02 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:57 GMT
+
+
+request38:
+Request:https://www.baidu.com/static/tj.gif?time=1445237938560 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15427693225960499595_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15427693225960499595_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237938560
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:15521383333311780894_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:58 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=15521383333311780894_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:03 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:58 GMT
+
+
+request39:
+Request:https://www.baidu.com/static/tj.gif?time=1445237939575 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:15521383333311780894_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=15521383333311780894_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237939575
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17631962608611744208_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:58:59 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17631962608611744208_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:04 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:58:59 GMT
+
+
+request40:
+Request:https://www.baidu.com/static/tj.gif?time=1445237940587 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17631962608611744208_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17631962608611744208_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237940587
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17263291682487060339_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:00 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17263291682487060339_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:05 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:00 GMT
+
+
+request41:
+Request:https://www.baidu.com/static/tj.gif?time=1445237941605 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17263291682487060339_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17263291682487060339_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237941605
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17658794798333137634_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:01 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17658794798333137634_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:06 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:01 GMT
+
+
+request42:
+Request:https://www.baidu.com/static/tj.gif?time=1445237942621 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17658794798333137634_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17658794798333137634_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237942621
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17886377650737747987_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:02 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17886377650737747987_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:07 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:02 GMT
+
+
+request43:
+Request:https://www.baidu.com/static/tj.gif?time=1445237943635 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17886377650737747987_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17886377650737747987_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237943635
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17963119718422071259_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:03 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17963119718422071259_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:08 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:03 GMT
+
+
+request44:
+Request:https://www.baidu.com/static/tj.gif?time=1445237944648 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17963119718422071259_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17963119718422071259_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237944648
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18248683907718969380_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:04 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18248683907718969380_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:09 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:04 GMT
+
+
+request45:
+Request:https://www.baidu.com/static/tj.gif?time=1445237945663 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18248683907718969380_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18248683907718969380_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237945663
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18174733972559679624_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:05 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18174733972559679624_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:10 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:05 GMT
+
+
+request46:
+Request:https://www.baidu.com/static/tj.gif?time=1445237946677 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18174733972559679624_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18174733972559679624_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237946677
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17728243229826231191_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:06 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17728243229826231191_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:11 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:06 GMT
+
+
+request47:
+Request:https://www.baidu.com/static/tj.gif?time=1445237947691 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17728243229826231191_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17728243229826231191_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237947691
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17571973730967718590_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:07 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17571973730967718590_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:12 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:07 GMT
+
+
+request48:
+Request:https://www.baidu.com/static/tj.gif?time=1445237948703 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17571973730967718590_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17571973730967718590_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237948703
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18089513411918342605_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:08 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18089513411918342605_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:13 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:08 GMT
+
+
+request49:
+Request:https://www.baidu.com/static/tj.gif?time=1445237949716 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18089513411918342605_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18089513411918342605_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237949716
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17748210047435353735_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:09 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17748210047435353735_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:14 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:09 GMT
+
+
+request50:
+Request:https://www.baidu.com/static/tj.gif?time=1445237950731 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17748210047435353735_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17748210047435353735_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237950731
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17824620646708790559_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:10 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17824620646708790559_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:15 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:10 GMT
+
+
+request51:
+Request:https://www.baidu.com/static/tj.gif?time=1445237951758 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17824620646708790559_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17824620646708790559_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237951758
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18297024288612196927_00_0_I_R_10000_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:11 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18297024288612196927_00_0_I_R_10000_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:16 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:11 GMT
+
+
+request52:
+Request:https://www.baidu.com/static/tj.gif?time=1445237952771 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18297024288612196927_00_0_I_R_10000_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18297024288612196927_00_0_I_R_10000_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237952771
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:18140624738175560357_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:12 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=18140624738175560357_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:17 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:12 GMT
+
+
+request53:
+Request:https://www.baidu.com/static/tj.gif?time=1445237953786 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:18140624738175560357_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=18140624738175560357_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237953786
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17533424612697623214_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:13 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17533424612697623214_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:18 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:13 GMT
+
+
+request54:
+Request:https://www.baidu.com/static/tj.gif?time=1445237954799 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17533424612697623214_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17533424612697623214_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237954799
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17629196366222846495_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:14 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17629196366222846495_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:19 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:14 GMT
+
+
+request55:
+Request:https://www.baidu.com/static/tj.gif?time=1445237955814 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:17629196366222846495_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=17629196366222846495_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445237955814
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:17745419048840849105_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:15 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=17745419048840849105_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 06:59:20 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 06:59:15 GMT
+
+
+request56:
+Request:https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp3&wd=t&_=1445237998642 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp3&wd=t&_=1445237998642
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+:scheme https
+:method GET
+
+queryString: 
+pre 1
+p 3
+ie utf-8
+from wise_web
+net 1
+os 2
+sp 240
+callback jsonp3
+wd t
+_ 1445237998642
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2636938474374042918_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:59:58 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type baiduApp/json; v6.27.2.14; charset=UTF-8
+status 200 OK
+expires Mon, 19 Oct 2015 07:59:58 GMT
+cache-control private
+set-cookie __bsi=2636938474374042918_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:03 GMT; domain=m.baidu.com; path=/
+content-length 202
+traceid 144523799804074913382636938474374042918
+version HTTP/1.1
+
+
+request57:
+Request:https://m.baidu.com/static/search/sug_logo.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 509
+traceid 144523451809105456741688821805575616513
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request58:
+Request:https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp4&wd=te&_=1445237999246 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;__bsi:2636938474374042918_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp4&wd=te&_=1445237999246
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1; __bsi=2636938474374042918_31_0_I_R_0_0303_C02F_Y_I_I_0
+:scheme https
+:method GET
+
+queryString: 
+pre 1
+p 3
+ie utf-8
+from wise_web
+net 1
+os 2
+sp 240
+callback jsonp4
+wd te
+_ 1445237999246
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:3081702468410166748_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:59:58 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type baiduApp/json; v6.27.2.14; charset=UTF-8
+status 200 OK
+expires Mon, 19 Oct 2015 07:59:58 GMT
+cache-control private
+set-cookie __bsi=3081702468410166748_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:03 GMT; domain=m.baidu.com; path=/
+content-length 186
+traceid 144523799802545955943081702468410166748
+version HTTP/1.1
+
+
+request59:
+Request:https://www.baidu.com/s?word=%E8%85%BE%E8%AE%AF&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=7999286&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_3&at=3&ss=100&_=1445237999320 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;PLUS:1;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; PLUS=1
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept application/json
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word %E8%85%BE%E8%AE%AF
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 7999286
+from 844b
+ms 1
+mod 1
+isid 9350759854123656534
+sa is_3
+at 3
+ss 100
+_ 1445237999320
+
+Response:200 
+
+content:   
+
+Cookie: H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:495744113898849684_00_0_I_R_371_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 06:59:59 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 1445237999027740007411025813141558185818
+Cache-Control private, max-age=0
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=495744113898849684_00_0_I_R_371_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:04 GMT; domain=www.baidu.com; path=/
+
+
+request60:
+Request:https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp5&wd=tes&_=1445238000158 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;__bsi:3081702468410166748_31_0_I_R_0_0303_C02F_Y_I_I_0;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp5&wd=tes&_=1445238000158
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; __bsi=3081702468410166748_31_0_I_R_0_0303_C02F_Y_I_I_0; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+:scheme https
+:method GET
+
+queryString: 
+pre 1
+p 3
+ie utf-8
+from wise_web
+net 1
+os 2
+sp 240
+callback jsonp5
+wd tes
+_ 1445238000158
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2978164168525623900_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 06:59:59 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type baiduApp/json; v6.27.2.14; charset=UTF-8
+status 200 OK
+expires Mon, 19 Oct 2015 07:59:59 GMT
+cache-control private
+set-cookie __bsi=2978164168525623900_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:04 GMT; domain=m.baidu.com; path=/
+content-length 190
+traceid 144523799906069171302978164168525623900
+version HTTP/1.1
+
+
+request61:
+Request:https://www.baidu.com/s?word=%E7%89%B9%E6%96%AF%E6%8B%89&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000191&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_1&at=3&ss=100&_=1445238000226 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:495744113898849684_00_0_I_R_371_0303_C02F_N_I_I_0;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=495744113898849684_00_0_I_R_371_0303_C02F_N_I_I_0
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept application/json
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word %E7%89%B9%E6%96%AF%E6%8B%89
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 8000191
+from 844b
+ms 1
+mod 1
+isid 9350759854123656534
+sa is_1
+at 3
+ss 100
+_ 1445238000226
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:deleted;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:00 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 144523800008811177069527948295988897330
+Cache-Control private, max-age=0
+Set-Cookie __bsi=deleted; expires=Thu, 01-Jan-1970 17:00:00 GMT; path=/; domain=.m.baidu.com
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:05 GMT; domain=www.baidu.com; path=/
+
+
+request62:
+Request:https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp6&wd=test&_=1445238000761 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;__bsi:2978164168525623900_31_0_I_R_0_0303_C02F_Y_I_I_0;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp6&wd=test&_=1445238000761
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; __bsi=2978164168525623900_31_0_I_R_0_0303_C02F_Y_I_I_0; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+:scheme https
+:method GET
+
+queryString: 
+pre 1
+p 3
+ie utf-8
+from wise_web
+net 1
+os 2
+sp 240
+callback jsonp6
+wd test
+_ 1445238000761
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1756681692613951004_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:00 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type baiduApp/json; v6.27.2.14; charset=UTF-8
+status 200 OK
+expires Mon, 19 Oct 2015 08:00:00 GMT
+cache-control private
+set-cookie __bsi=1756681692613951004_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:05 GMT; domain=m.baidu.com; path=/
+content-length 158
+traceid 144523800005904681061756681692613951004
+version HTTP/1.1
+
+
+request63:
+Request:https://www.baidu.com/s?word=test&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=ib&at=3&ss=100&_=1445238000801 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept application/json
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word test
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 8000790
+from 844b
+ms 1
+mod 1
+isid 9350759854123656534
+sa ib
+at 3
+ss 100
+_ 1445238000801
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:deleted;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17743421695678901095_00_0_I_R_272_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:00 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 144523800004283294829754714589066718698
+Cache-Control private, max-age=0
+Set-Cookie __bsi=deleted; expires=Thu, 01-Jan-1970 17:00:00 GMT; path=/; domain=.m.baidu.com
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=17743421695678901095_00_0_I_R_272_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:05 GMT; domain=www.baidu.com; path=/
+
+
+request64:
+Request:https://www.baidu.com/s?word=test%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_1&at=3&ss=100&_=1445238000803 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept application/json
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word test%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 8000790
+from 844b
+ms 1
+mod 1
+isid 9350759854123656534
+sa is_1
+at 3
+ss 100
+_ 1445238000803
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:deleted;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2563596916243405745_00_9_R_N_564_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:00 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 1445238000051156020211732079225541813139
+Cache-Control private, max-age=0
+Set-Cookie __bsi=deleted; expires=Thu, 01-Jan-1970 17:00:00 GMT; path=/; domain=.m.baidu.com
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=2563596916243405745_00_9_R_N_564_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:05 GMT; domain=www.baidu.com; path=/
+
+
+request65:
+Request:https://www.baidu.com/s?word=testicles&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_2&at=3&ss=100&_=1445238000804 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17145922690192814766_00_0_I_R_452_0303_C02F_N_I_I_0
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept application/json
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word testicles
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 8000790
+from 844b
+ms 1
+mod 1
+isid 9350759854123656534
+sa is_2
+at 3
+ss 100
+_ 1445238000804
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:deleted;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2749247844047291381_00_10_R_N_279_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:00 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 144523800004618183788730229730295108326
+Cache-Control private, max-age=0
+Set-Cookie __bsi=deleted; expires=Thu, 01-Jan-1970 17:00:00 GMT; path=/; domain=.m.baidu.com
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=2749247844047291381_00_10_R_N_279_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:05 GMT; domain=www.baidu.com; path=/
+
+
+request66:
+Request:https://m.baidu.com/static/search/resultLogo2.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 2998
+traceid 1445234517060665498615329965738110255197
+expires Tue, 18 Oct 2016 06:01:57 GMT
+
+
+request67:
+Request:https://m.baidu.com/static/search/ico-bdlogo.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 1065
+traceid 144498672303215733861157754743261465774
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request68:
+Request:https://www.baidu.com/s?word=test&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=2&isid=9350759854123656534&sa=ib&at=3&chk=1445238000&cqid=9754714589066718698&ss=100&_=1445238003451 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2563596916243405745_00_9_R_N_564_0303_C02F_N_I_I_0;BDICON:10294984.98;
+Header: 
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=2563596916243405745_00_9_R_N_564_0303_C02F_N_I_I_0; BDICON=10294984.98
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer https://www.baidu.com/
+X-Requested-With XMLHttpRequest
+Connection keep-alive
+
+queryString: 
+word test
+tn iphone
+rn 10
+wpo base
+ssid 0
+from 844b
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537
+qid 9350759854123656534
+ts 8000790
+from 844b
+ms 1
+mod 2
+isid 9350759854123656534
+sa ib
+at 3
+chk 1445238000
+cqid 9754714589066718698
+ss 100
+_ 1445238003451
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:deleted;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17455699049408733175_00_0_I_R_56_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:03 GMT
+Content-Encoding gzip
+Server bfe/1.0.8.5
+Transfer-Encoding chunked
+Connection keep-alive
+Content-Type text/javascript;charset=utf-8
+traceid 144523800304783989869575831683251437981
+Cache-Control private, max-age=0
+Set-Cookie __bsi=deleted; expires=Thu, 01-Jan-1970 17:00:00 GMT; path=/; domain=.m.baidu.com
+Set-Cookie H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; path=/; domain=.baidu.com
+Set-Cookie __bsi=17455699049408733175_00_0_I_R_56_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=www.baidu.com; path=/
+
+
+request69:
+Request:https://m.baidu.com/static/search/iconfont/search_iconfont_128e950d.woff 
+GET
+Cookie: 
+Header: 
+Origin https://www.baidu.com
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type application/octet-stream
+status 200 OK
+expires Tue, 18 Oct 2016 06:01:58 GMT
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 4608
+traceid 1445234518023781837816260039577941858347
+version HTTP/1.1
+
+
+request70:
+Request:https://m.baidu.com/static/search/sprite.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 30716
+traceid 144523451806093422181933606109355541819
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request71:
+Request:https://m.baidu.com/static/search/iconfont/cicon_63100946.woff 
+GET
+Cookie: 
+Header: 
+Origin https://www.baidu.com
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+access-control-allow-origin *
+content-type application/octet-stream
+status 200 OK
+expires Tue, 18 Oct 2016 06:01:58 GMT
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 10592
+traceid 1445234518043940762615754590479882563686
+version HTTP/1.1
+
+
+request72:
+Request:https://m.baidu.com/static/search/uibase/allstar.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 3807
+traceid 144498672305904681061140197569783576061
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request73:
+Request:https://m.baidu.com/static/search/image_default.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 696
+traceid 144523451802402434662014401217385132614
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request74:
+Request:https://m.baidu.com/tc?tcreq4log=1&ct=22&cst=2 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;__bsi:1756681692613951004_31_0_I_R_0_0303_C02F_Y_I_I_0;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ct=22&cst=2
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; __bsi=1756681692613951004_31_0_I_R_0_0303_C02F_Y_I_I_0; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ct 22
+cst 2
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2159643104193975869_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:03 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=2159643104193975869_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523800303618309222159643104193975869
+version HTTP/1.1
+
+
+request75:
+Request:https://m.baidu.com/static/ala/uiamd/ttsvoice/ttsVoice.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 06:01:58 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type application/x-javascript
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 514
+traceid 144523451803553249382046337378721174529
+expires Tue, 18 Oct 2016 06:01:58 GMT
+
+
+request76:
+Request:https://m.baidu.com/his?callback=jsonp1&type=3&pic=1&net=1&hisdata=%5B%7B%22kw%22%3A%22test%22%2C%22time%22%3A1445238003%7D%5D&_=1445238003691 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2159643104193975869_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /his?callback=jsonp1&type=3&pic=1&net=1&hisdata=%5B%7B%22kw%22%3A%22test%22%2C%22time%22%3A1445238003%7D%5D&_=1445238003691
+accept */*
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=2159643104193975869_31_0_I_R_0_0303_C02F_Y_I_I_0
+:scheme https
+:method GET
+
+queryString: 
+callback jsonp1
+type 3
+pic 1
+net 1
+hisdata %5B%7B%22kw%22%3A%22test%22%2C%22time%22%3A1445238003%7D%5D
+_ 1445238003691
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:03 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type baiduApp/json; v6.27.2.14; charset=UTF-8
+status 200 OK
+cache-control private
+set-cookie __bsi=1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=m.baidu.com; path=/
+content-length 113
+traceid 144523800309591075941878920413337674314
+expires Mon, 19 Oct 2015 08:00:03 GMT
+
+
+request77:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=w96&quality=80&sec=1445238000&di=440ac03dccdf8e42d792e6a1fa395471&imgtype=3&src=http%3A%2F%2Fg.hiphotos.bdimg.com%2Fwisegame%2Fpic%2Fitem%2F52adcbef76094b365a283972a5cc7cd98c109df3.jpg 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=w96&quality=80&sec=1445238000&di=440ac03dccdf8e42d792e6a1fa395471&imgtype=3&src=http%3A%2F%2Fg.hiphotos.bdimg.com%2Fwisegame%2Fpic%2Fitem%2F52adcbef76094b365a283972a5cc7cd98c109df3.jpg
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size w96
+quality 80
+sec 1445238000
+di 440ac03dccdf8e42d792e6a1fa395471
+imgtype 3
+src http%3A%2F%2Fg.hiphotos.bdimg.com%2Fwisegame%2Fpic%2Fitem%2F52adcbef76094b365a283972a5cc7cd98c109df3.jpg
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 07:00:04 GMT
+version HTTP/1.1
+age 4
+x-img-thumnail-height 72
+x-img-thumnail-width 72
+status 200 OK
+content-length 7412
+x-img-original-content-type image/png
+x-img-original-width 72
+last-modified Mon, 19 Oct 2015 05:42:39 GMT
+server bfe/1.0.8.6
+etag "6366475173655218496"
+x-img-original-height 72
+content-type image/png
+connnection close
+cache-control max-age=315360000
+accept-ranges bytes
+x-img-generate-time 1445234106
+expires Thu, 16 Oct 2025 05:55:23 GMT
+
+
+request78:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003704 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003704
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+bd_page_type 1
+uid 0
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+ct 0
+cst 2
+ref www_iphone
+lid 9754714589066718698
+w 0_10_test
+clk_from wise_ext_inapp@
+clk_info a7_l1
+r 1445238003704
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1844231731967489620_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:03 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=1844231731967489620_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523800304883809381844231731967489620
+version HTTP/1.1
+
+
+request79:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003705 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003705
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+bd_page_type 1
+uid 0
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+ct 0
+cst 2
+ref www_iphone
+lid 9754714589066718698
+w 0_10_test
+clk_from wise_ext_inapp@
+clk_info a7_l1
+r 1445238003705
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1682134404814785124_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:03 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=1682134404814785124_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523800303044206181682134404814785124
+version HTTP/1.1
+
+
+request80:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=60&sec=1445238000&di=0f1e0d6b7f02e8768346edfcf0de8956&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2158984460%2C3060984718%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=60&sec=1445238000&di=0f1e0d6b7f02e8768346edfcf0de8956&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2158984460%2C3060984718%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 60
+sec 1445238000
+di 0f1e0d6b7f02e8768346edfcf0de8956
+src http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2158984460%2C3060984718%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 07:00:04 GMT
+version HTTP/1.1
+x-img-original-height 121
+x-img-thumnail-height 121
+x-img-original-orientation UndefinedOrientation
+x-img-thumnail-width 121
+status 200 OK
+content-length 637
+x-img-original-content-type image/jpeg
+last-modified Thu, 01 Jan 1970 00:00:00 GMT
+server bfe/1.0.8.6
+etag 637729cd7c01d97f7a7ade72c4fca83f
+content-type image/jpeg
+expires Tue, 16 Sep 2025 08:53:59 GMT
+cache-control max-age=315360000
+accept-ranges bytes
+x-img-generate-time 1442651894
+x-img-original-width 121
+
+
+request81:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=5268ca0a427c607d7adf17c84854f931&src=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2694654120%2C2412740650%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=5268ca0a427c607d7adf17c84854f931&src=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2694654120%2C2412740650%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 100
+sec 1445238000
+di 5268ca0a427c607d7adf17c84854f931
+src http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2694654120%2C2412740650%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 07:00:04 GMT
+version HTTP/1.1
+x-img-original-height 75
+x-img-thumnail-height 75
+x-img-original-orientation UndefinedOrientation
+status 200 OK
+x-img-generate-time 1441723430
+content-length 1950
+server bfe/1.0.8.6
+content-type image/jpeg
+connnection close
+expires Sun, 07 Sep 2025 05:32:33 GMT
+cache-control max-age=315360000
+accept-ranges bytes
+x-img-thumnail-width 75
+x-img-original-width 75
+
+
+request82:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=970cd7376a011931596f68c0cd4b2333&src=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1982523118%2C2357937045%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=970cd7376a011931596f68c0cd4b2333&src=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1982523118%2C2357937045%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 100
+sec 1445238000
+di 970cd7376a011931596f68c0cd4b2333
+src http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1982523118%2C2357937045%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 07:00:04 GMT
+version HTTP/1.1
+x-img-original-height 75
+x-img-thumnail-height 75
+x-img-original-orientation UndefinedOrientation
+status 200 OK
+x-img-generate-time 1441724880
+content-length 2656
+server bfe/1.0.8.6
+content-type image/jpeg
+connnection close
+expires Sat, 06 Sep 2025 13:06:43 GMT
+cache-control max-age=315360000
+accept-ranges bytes
+x-img-thumnail-width 75
+x-img-original-width 75
+
+
+request83:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=831b1e07c24f55b1769a3ddf4f4643f5&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2906094215%2C2234981367%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=831b1e07c24f55b1769a3ddf4f4643f5&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2906094215%2C2234981367%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 100
+sec 1445238000
+di 831b1e07c24f55b1769a3ddf4f4643f5
+src http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2906094215%2C2234981367%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Mon, 19 Oct 2015 07:00:04 GMT
+version HTTP/1.1
+x-img-original-height 75
+x-img-thumnail-height 75
+x-img-original-orientation UndefinedOrientation
+status 200 OK
+x-img-generate-time 1441723430
+content-length 3216
+server bfe/1.0.8.6
+content-type image/jpeg
+connnection close
+expires Sat, 06 Sep 2025 10:02:09 GMT
+cache-control max-age=315360000
+accept-ranges bytes
+x-img-thumnail-width 75
+x-img-original-width 75
+
+
+request84:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=917e15075e61303c4134ab3703c48267&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1128994622%2C1142791364%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=917e15075e61303c4134ab3703c48267&src=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1128994622%2C1142791364%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 100
+sec 1445238000
+di 917e15075e61303c4134ab3703c48267
+src http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1128994622%2C1142791364%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+x-img-thumnail-width 75
+date Mon, 19 Oct 2015 07:00:04 GMT
+x-img-original-width 75
+server bfe/1.0.8.6
+version HTTP/1.1
+x-img-original-height 75
+x-img-thumnail-height 75
+x-img-original-orientation UndefinedOrientation
+content-type image/jpeg
+status 200 OK
+cache-control max-age=315360000
+accept-ranges bytes
+content-length 2181
+x-img-generate-time 1441755522
+expires Sun, 07 Sep 2025 05:32:33 GMT
+
+
+request85:
+Request:https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=06a94903bafb40bf1f46bca7cffcf5ad&src=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2185071369%2C2991829236%26fm%3D58 
+GET
+Cookie: 
+Header: 
+:host ss0.bdstatic.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=8&quality=100&sec=1445238000&di=06a94903bafb40bf1f46bca7cffcf5ad&src=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2185071369%2C2991829236%26fm%3D58
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+:scheme https
+:method GET
+
+queryString: 
+wisealaddin 
+size 8
+quality 100
+sec 1445238000
+di 06a94903bafb40bf1f46bca7cffcf5ad
+src http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2185071369%2C2991829236%26fm%3D58
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+x-img-thumnail-width 75
+date Mon, 19 Oct 2015 07:00:04 GMT
+x-img-original-width 75
+server bfe/1.0.8.6
+version HTTP/1.1
+x-img-original-height 75
+x-img-thumnail-height 75
+x-img-original-orientation UndefinedOrientation
+content-type image/jpeg
+status 200 OK
+cache-control max-age=315360000
+accept-ranges bytes
+content-length 1992
+x-img-generate-time 1441792929
+expires Sat, 06 Sep 2025 10:02:09 GMT
+
+
+request86:
+Request:https://www.baidu.com/static/tj.gif?time=1445238003760 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:17455699049408733175_00_0_I_R_56_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=17455699049408733175_00_0_I_R_56_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238003760
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2012583299587054949_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:03 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2012583299587054949_00_0_I_R_3_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:03 GMT
+
+
+request87:
+Request:https://sp1.baidu.com/5b11fzupBgM18t7jm9iCKT-xh_/sensearch?wd=test&cb=jsonp5&_=0.3324400670826435&_=1445238003770 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp1.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+wd test
+cb jsonp5
+_ 0.3324400670826435
+_ 1445238003770
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:03 GMT
+tracecode 00034543390902896138101915
+tracecode 00034547550902896138101915
+Server bfe/1.0.8.5
+Connection keep-alive
+Transfer-Encoding chunked
+Content-Type application/json
+
+
+request88:
+Request:https://m.baidu.com/static/ala/uiamd/iscroll/iscroll.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+version HTTP/1.1
+vary Accept-Encoding
+content-type application/x-javascript
+status 200 OK
+cache-control max-age=31536000
+traceid 144498672309108733541589090169833371705
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request89:
+Request:https://m.baidu.com/static/ala/fanyi/speaker.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 1288
+traceid 144498672307431667301447535538136304407
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request90:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&adt=0&adb=0&top=0&wise=10&bottom=0&adpos=t_0_0.00&initViewZone=w_1_0.00%3Aw_3_0.41&adsHeight=_w1%3A261_w2%3A196_w3%3A178_w4%3A143_w5%3A204_w6%3A179_w7%3A170_w8%3A170_w9%3A144_w10%3A144&availHeight=640&availWidth=360&winHeight=640&winWidth=360&action=init&tag=ecom_wise_listen_n&rand=1445238003785 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+adt 0
+adb 0
+top 0
+wise 10
+bottom 0
+adpos t_0_0.00
+initViewZone w_1_0.00%3Aw_3_0.41
+adsHeight _w1%3A261_w2%3A196_w3%3A178_w4%3A143_w5%3A204_w6%3A179_w7%3A170_w8%3A170_w9%3A144_w10%3A144
+availHeight 640
+availWidth 360
+winHeight 640
+winWidth 360
+action init
+tag ecom_wise_listen_n
+rand 1445238003785
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:03 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request91:
+Request:https://m.baidu.com/static/search/inapp/lib/openapp-v3-min.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+content-encoding gzip
+server bfe/1.0.8.6
+version HTTP/1.1
+vary Accept-Encoding
+content-type application/x-javascript
+status 200 OK
+cache-control max-age=31536000
+traceid 144498672302399157861483925834039685707
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request92:
+Request:https://m.baidu.com/static/search/banner/flyflow.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 6290
+traceid 144498672306091456101150209464857578327
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request93:
+Request:https://m.baidu.com/static/search/prompt/close.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+date Fri, 16 Oct 2015 09:12:03 GMT
+server bfe/1.0.8.6
+version HTTP/1.1
+content-type image/png
+status 200 OK
+cache-control max-age=31536000
+accept-ranges bytes
+content-length 936
+traceid 144498672309446899301530605883644349918
+expires Sat, 15 Oct 2016 09:12:03 GMT
+
+
+request94:
+Request:https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=9&cst=1&ref=www_iphone&lid=9754714589066718698&w=0_10_test&s_os=2&r=1445238003794 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+:host m.baidu.com
+accept-encoding gzip, deflate, sdch
+accept-language zh-CN,zh;q=0.8
+user-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+:path /tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=9&cst=1&ref=www_iphone&lid=9754714589066718698&w=0_10_test&s_os=2&r=1445238003794
+accept image/webp,image/*,*/*;q=0.8
+:version HTTP/1.1
+referer https://www.baidu.com/
+cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=1878920413337674314_31_0_I_R_0_0303_C02F_Y_I_I_0
+:scheme https
+:method GET
+
+queryString: 
+tcreq4log 1
+ssid 0
+from 844b
+bd_page_type 1
+uid 0
+pu sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+ct 9
+cst 1
+ref www_iphone
+lid 9754714589066718698
+w 0_10_test
+s_os 2
+r 1445238003794
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1964800096841785579_31_0_I_R_0_0303_C02F_Y_I_I_0;
+Header: 
+date Mon, 19 Oct 2015 07:00:03 GMT
+server bfe/1.0.8.6
+status 200 OK
+tcreq4log 1
+set-cookie __bsi=1964800096841785579_31_0_I_R_0_0303_C02F_Y_I_I_0; expires=Mon, 19-Oct-15 07:00:08 GMT; domain=m.baidu.com; path=/
+keep-unchanged 1
+content-length 0
+traceid 144523800302301035621964800096841785579
+version HTTP/1.1
+
+
+request95:
+Request:https://www.baidu.com/static/tj.gif?time=1445238004915 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2012583299587054949_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=2012583299587054949_00_0_I_R_3_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238004915
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2428169931655500802_00_0_I_R_3_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:04 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2428169931655500802_00_0_I_R_3_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:09 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:04 GMT
+
+
+request96:
+Request:https://www.baidu.com/static/tj.gif?time=1445238005934 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;__bsi:2428169931655500802_00_0_I_R_3_0303_C02F_N_I_I_0;MSA_WH:360_640;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=2428169931655500802_00_0_I_R_3_0303_C02F_N_I_I_0; MSA_WH=360_640
+Connection keep-alive
+
+queryString: 
+time 1445238005934
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2554780593977584234_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:05 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2554780593977584234_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:10 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:05 GMT
+
+
+request97:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&startHeight=640&startTime=1445238006280&endHeight=1140&endTime=1445238006764&scrollTime=484&scrollLen=500&scrollInter=1&scrolldirect=B&stayTime=2497&startViewZone=w_1_0.00%3Aw_3_0.41&endViewZone=w_2_0.69%3Aw_6_0.17&adpos=t_0_0.00&action=scroll&top=0&wise=10&bottom=0&tag=ecom_wise_listen_n&rand=1445238006766 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+startHeight 640
+startTime 1445238006280
+endHeight 1140
+endTime 1445238006764
+scrollTime 484
+scrollLen 500
+scrollInter 1
+scrolldirect B
+stayTime 2497
+startViewZone w_1_0.00%3Aw_3_0.41
+endViewZone w_2_0.69%3Aw_6_0.17
+adpos t_0_0.00
+action scroll
+top 0
+wise 10
+bottom 0
+tag ecom_wise_listen_n
+rand 1445238006766
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:06 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request98:
+Request:https://www.baidu.com/static/tj.gif?time=1445238006948 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;__bsi:2554780593977584234_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; __bsi=2554780593977584234_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238006948
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2959184694513013473_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:06 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2959184694513013473_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:11 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:06 GMT
+
+
+request99:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&startHeight=1140&startTime=1445238007412&endHeight=1740&endTime=1445238007897&scrollTime=485&scrollLen=600&scrollInter=2&scrolldirect=B&stayTime=648&startViewZone=w_2_0.69%3Aw_6_0.17&endViewZone=w_5_0.98%3Aw_9_0.65&adpos=t_0_0.00&action=scroll&top=0&wise=10&bottom=0&tag=ecom_wise_listen_n&rand=1445238007899 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+startHeight 1140
+startTime 1445238007412
+endHeight 1740
+endTime 1445238007897
+scrollTime 485
+scrollLen 600
+scrollInter 2
+scrolldirect B
+stayTime 648
+startViewZone w_2_0.69%3Aw_6_0.17
+endViewZone w_5_0.98%3Aw_9_0.65
+adpos t_0_0.00
+action scroll
+top 0
+wise 10
+bottom 0
+tag ecom_wise_listen_n
+rand 1445238007899
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:07 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request100:
+Request:https://www.baidu.com/static/tj.gif?time=1445238007980 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;__bsi:2959184694513013473_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; __bsi=2959184694513013473_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238007980
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:1951163235726632219_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:07 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=1951163235726632219_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:12 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:07 GMT
+
+
+request101:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&startHeight=1740&startTime=1445238008429&endHeight=2240&endTime=1445238008836&scrollTime=407&scrollLen=500&scrollInter=3&scrolldirect=B&stayTime=532&startViewZone=w_5_0.98%3Aw_9_0.65&endViewZone=w_8_0.76%3Aw_10_1.00&adpos=t_0_0.00&action=scroll&top=0&wise=10&bottom=0&tag=ecom_wise_listen_n&rand=1445238008836 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+startHeight 1740
+startTime 1445238008429
+endHeight 2240
+endTime 1445238008836
+scrollTime 407
+scrollLen 500
+scrollInter 3
+scrolldirect B
+stayTime 532
+startViewZone w_5_0.98%3Aw_9_0.65
+endViewZone w_8_0.76%3Aw_10_1.00
+adpos t_0_0.00
+action scroll
+top 0
+wise 10
+bottom 0
+tag ecom_wise_listen_n
+rand 1445238008836
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:08 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request102:
+Request:https://www.baidu.com/static/tj.gif?time=1445238008996 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;__bsi:1951163235726632219_00_0_I_R_2_0303_C02F_N_I_I_0;btm:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; __bsi=1951163235726632219_00_0_I_R_2_0303_C02F_N_I_I_0; btm=1
+Connection keep-alive
+
+queryString: 
+time 1445238008996
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2644247541636080966_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:08 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2644247541636080966_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:13 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:08 GMT
+
+
+request103:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&startHeight=2240&startTime=1445238009243&endHeight=2581&endTime=1445238009612&scrollTime=369&scrollLen=341&scrollInter=4&scrolldirect=B&stayTime=407&startViewZone=w_8_0.76%3Aw_10_1.00&endViewZone=w_10_1.00%3Aw_10_1.00&adpos=t_0_0.00&action=scroll&top=0&wise=10&bottom=0&tag=ecom_wise_listen_n&rand=1445238009612 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+startHeight 2240
+startTime 1445238009243
+endHeight 2581
+endTime 1445238009612
+scrollTime 369
+scrollLen 341
+scrollInter 4
+scrolldirect B
+stayTime 407
+startViewZone w_8_0.76%3Aw_10_1.00
+endViewZone w_10_1.00%3Aw_10_1.00
+adpos t_0_0.00
+action scroll
+top 0
+wise 10
+bottom 0
+tag ecom_wise_listen_n
+rand 1445238009612
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:09 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request104:
+Request:https://www.baidu.com/static/tj.gif?time=1445238010010 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;__bsi:2644247541636080966_00_0_I_R_1_0303_C02F_N_I_I_0;btm:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; __bsi=2644247541636080966_00_0_I_R_1_0303_C02F_N_I_I_0; btm=1
+Connection keep-alive
+
+queryString: 
+time 1445238010010
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2328299748550587068_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:09 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2328299748550587068_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:14 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:09 GMT
+
+
+request105:
+Request:https://www.baidu.com/static/tj.gif?time=1445238011023 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;btm:1;__bsi:2328299748550587068_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; btm=1; __bsi=2328299748550587068_00_0_I_R_1_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238011023
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2072384220907734204_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:10 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2072384220907734204_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:15 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:10 GMT
+
+
+request106:
+Request:https://sp0.baidu.com/-rU_dTmfKgQFm2e88IuM_a/w.gif?eid=100414_205_100935_406_398_100381_&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&query=test&queryUtf8=test&searchid=875fb53c6ea46dea&osid=2&bwsid=4&startHeight=2581&startTime=1445238011271&endHeight=2081&endTime=1445238011713&scrollTime=442&scrollLen=-500&scrollInter=5&scrolldirect=T&stayTime=1659&startViewZone=w_10_1.00%3Aw_10_1.00&endViewZone=w_7_0.86%3Aw_10_1.00&adpos=t_0_0.00&action=scroll&top=0&wise=10&bottom=0&tag=ecom_wise_listen_n&rand=1445238011713 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host sp0.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+eid 100414_205_100935_406_398_100381_
+baiduid 498FB2AA4AA3DD7B7A500D58F62F3ABC
+query test
+queryUtf8 test
+searchid 875fb53c6ea46dea
+osid 2
+bwsid 4
+startHeight 2581
+startTime 1445238011271
+endHeight 2081
+endTime 1445238011713
+scrollTime 442
+scrollLen -500
+scrollInter 5
+scrolldirect T
+stayTime 1659
+startViewZone w_10_1.00%3Aw_10_1.00
+endViewZone w_7_0.86%3Aw_10_1.00
+adpos t_0_0.00
+action scroll
+top 0
+wise 10
+bottom 0
+tag ecom_wise_listen_n
+rand 1445238011713
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:11 GMT
+Last-Modified Mon, 28 Sep 1970 06:00:00 GMT
+Server bfe/1.0.8.5
+Content-Type image/gif
+Cache-Control max-age=315360000
+Connection keep-alive
+Content-Length 43
+Expires Thu, 31 Dec 2037 23:55:55 GMT
+
+
+request107:
+Request:https://www.baidu.com/static/tj.gif?time=1445238012037 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;__bsi:2072384220907734204_00_0_I_R_1_0303_C02F_N_I_I_0;btm:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; __bsi=2072384220907734204_00_0_I_R_1_0303_C02F_N_I_I_0; btm=1
+Connection keep-alive
+
+queryString: 
+time 1445238012037
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2662351150877677536_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:11 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2662351150877677536_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:16 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:11 GMT
+
+
+request108:
+Request:https://www.baidu.com/static/tj.gif?time=1445238013052 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;btm:1;__bsi:2662351150877677536_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; btm=1; __bsi=2662351150877677536_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238013052
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2435825603427930921_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:12 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2435825603427930921_00_0_I_R_2_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:17 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:12 GMT
+
+
+request109:
+Request:https://www.baidu.com/static/tj.gif?time=1445238014065 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;BDICON:10294984.98;lsv:b2121d58824ca85625ha;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;MSA_WH:360_640;btm:1;__bsi:2435825603427930921_00_0_I_R_2_0303_C02F_N_I_I_0;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept image/webp,image/*,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; BDICON=10294984.98; lsv=b2121d58824ca85625ha; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; MSA_WH=360_640; btm=1; __bsi=2435825603427930921_00_0_I_R_2_0303_C02F_N_I_I_0
+Connection keep-alive
+
+queryString: 
+time 1445238014065
+
+Response:200 
+
+content:   
+
+Cookie: __bsi:2747743978443235327_00_0_I_R_1_0303_C02F_N_I_I_0;
+Header: 
+Date Mon, 19 Oct 2015 07:00:13 GMT
+Last-Modified Mon, 19 May 2014 06:22:08 GMT
+Server bfe/1.0.8.5
+ETag "0-4f9bac862e400"
+Content-Type image/gif
+Set-Cookie __bsi=2747743978443235327_00_0_I_R_1_0303_C02F_N_I_I_0; expires=Mon, 19-Oct-15 07:00:18 GMT; domain=www.baidu.com; path=/
+Cache-Control max-age=315360000
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 0
+Expires Thu, 16 Oct 2025 07:00:13 GMT
+
+
+request110:
+Request:http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537/baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC/w=0_10_test/t=iphone/l=1/tc?ref=www_iphone&lid=9754714589066718698&order=10&vit=osres&tj=www_normal_10_0_10_title&waput=1&waplogo=1&cltj=normal_title&dict=-1&title=test&sec=7255&di=21828c17e66e3071&bdenc=1&tch=124.0.0.0.0.0&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiZKjlW1zT5nk_qva02JsRpVy3qAp7CHFX5xyPQpxs2wHCf_GIjzBAx 
+GET
+Cookie: BAIDUID:498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1;plus_lsv:9019bfb5118430f625ha;PLUS:1;H_WISE_SIDS:100414_100805_100427_100935_100040_100295_100288_100381;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host m.baidu.com
+Accept-Language zh-CN,zh;q=0.8
+Upgrade-Insecure-Requests 1
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer https://www.baidu.com/
+Cookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; plus_lsv=9019bfb5118430f625ha; PLUS=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381
+Connection keep-alive
+
+queryString: 
+ref www_iphone
+lid 9754714589066718698
+order 10
+vit osres
+tj www_normal_10_0_10_title
+waput 1
+waplogo 1
+cltj normal_title
+dict -1
+title test
+sec 7255
+di 21828c17e66e3071
+bdenc 1
+tch 124.0.0.0.0.0
+nsrc IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiZKjlW1zT5nk_qva02JsRpVy3qAp7CHFX5xyPQpxs2wHCf_GIjzBAx
+
+Response:200 http://m.douban.com/group/topic/28044745/
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:14 GMT
+Content-Encoding gzip
+Server apache
+Vary Accept-Encoding
+Content-Type text/html; charset=UTF-8
+Location http://m.douban.com/group/topic/28044745/
+Transfer-Encoding chunked
+Connection Keep-Alive
+Keep-Unchanged 1
+traceid 1445238014032119783413246832449554565719
+
+
+request111:
+Request:http://m.douban.com/group/topic/28044745/ 
+GET
+Cookie: 
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host m.douban.com
+Accept-Language zh-CN,zh;q=0.8
+Upgrade-Insecure-Requests 1
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537/baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC/w=0_10_test/t=iphone/l=1/tc?ref=www_iphone&lid=9754714589066718698&order=10&vit=osres&tj=www_normal_10_0_10_title&waput=1&waplogo=1&cltj=normal_title&dict=-1&title=test&sec=7255&di=21828c17e66e3071&bdenc=1&tch=124.0.0.0.0.0&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiZKjlW1zT5nk_qva02JsRpVy3qAp7CHFX5xyPQpxs2wHCf_GIjzBAx
+Connection keep-alive
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: bid:"2MknzffSrPk";
+Header: 
+Date Mon, 19 Oct 2015 07:00:15 GMT
+Content-Encoding gzip
+X-DAE-Node nain2
+X-Douban-Splittest 
+P3P CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Connection keep-alive
+X-Douban-Mobileapp 0
+Content-Length 530302
+Pragma no-cache
+Server dae
+X-Douban-Newbid 2MknzffSrPk
+Vary Accept-Encoding
+Content-Type text/html; charset=utf-8
+Cache-Control must-revalidate, no-cache, private
+Set-Cookie bid="2MknzffSrPk"; path=/; domain=m.douban.com; expires=Tue, 18-Oct-2016 07:00:14 GMT
+Keep-Alive timeout=10
+Expires Sun, 1 Jan 2006 01:00:00 GMT
+
+
+request112:
+Request:http://img3.douban.com/f/talion/4aec492a4af26c4b8366888c37178e643d06e126/css/card/base.css 
+GET
+Cookie: 
+Header: 
+Accept text/css,*/*;q=0.1
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 26 Sep 2015 17:46:08 GMT
+Content-Encoding gzip
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type text/css
+Cache-Control max-age=31536000
+Transfer-Encoding chunked
+Connection keep-alive
+X-Via 1.1 xinxiazai54:8108 (Cdn Cache Server V2.0), 1.1 tzhdx33:1 (Cdn Cache Server V2.0)
+Expires Sun, 25 Sep 2016 17:46:08 GMT
+
+
+request113:
+Request:http://img3.douban.com/f/talion/a2b350f8d8593d67510f320c9f4734e5ceaaba31/css/card/note_v2.css 
+GET
+Cookie: 
+Header: 
+Accept text/css,*/*;q=0.1
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 26 Sep 2015 03:43:44 GMT
+Content-Encoding gzip
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type text/css
+Cache-Control max-age=31536000
+Transfer-Encoding chunked
+Connection keep-alive
+X-Via 1.1 tzh57:8111 (Cdn Cache Server V2.0), 1.1 tzhdx31:9 (Cdn Cache Server V2.0)
+Expires Sun, 25 Sep 2016 03:43:44 GMT
+
+
+request114:
+Request:http://img3.douban.com/img/files/file-1440483270.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 01:37:00 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 17654
+X-Via 1.1 xxxz53:8107 (Cdn Cache Server V2.0), 1.1 tzhdx33:4 (Cdn Cache Server V2.0)
+Expires Tue, 18 Oct 2016 01:37:00 GMT
+
+
+request115:
+Request:http://img3.douban.com/f/talion/237acabfb9095b06ca97fb0bd6716f446280d68b/pics/card/app-icon.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 01:37:00 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 2140
+X-Via 1.1 tzh60:88 (Cdn Cache Server V2.0), 1.1 jtzhdx36:6 (Cdn Cache Server V2.0)
+Expires Tue, 18 Oct 2016 01:37:00 GMT
+
+
+request116:
+Request:http://img3.douban.com/f/talion/70ae5409de057d160121a3ab0c6d01a96a2fd56f/pics/card/home-icon.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 17 Oct 2015 16:18:37 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 428
+X-Via 1.1 xxxz63:8104 (Cdn Cache Server V2.0), 1.1 tzhdx33:7 (Cdn Cache Server V2.0)
+Expires Sun, 16 Oct 2016 16:18:37 GMT
+
+
+request117:
+Request:http://img3.douban.com/icon/g102813-1.jpg 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 07:00:15 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+X-Via 1.1 tzh58:8110 (Cdn Cache Server V2.0), 1.1 zhoudianxin34:4 (Cdn Cache Server V2.0)
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Type image/jpeg
+Content-Length 1260
+Expires Fri, 30 Sep 2016 03:53:31 GMT
+
+
+request118:
+Request:http://img4.douban.com/icon/up1107947-16.jpg 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img4.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Fri, 16 Oct 2015 07:14:26 GMT
+CC_CACHE TCP_HIT
+Powered-By-ChinaCache HIT from CHN-LN-c-3WD.7
+Accept-Encoding Vary
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server nginx
+Age 258350
+Content-Type image/jpeg
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 10073
+Expires Sat, 15 Oct 2016 07:14:26 GMT
+
+
+request119:
+Request:http://img4.douban.com/icon/up1743602-38.jpg 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img4.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Tue, 13 Oct 2015 03:50:08 GMT
+CC_CACHE TCP_REFRESH_HIT
+Powered-By-ChinaCache HIT from CHN-LN-c-3WD.1
+Accept-Encoding Vary
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server nginx
+Content-Type image/jpeg
+Connection keep-alive
+Accept-Ranges bytes
+Content-Length 13548
+Expires Wed, 12 Oct 2016 03:50:08 GMT
+
+
+request120:
+Request:http://img3.douban.com/f/talion/7837f29dd7deab9416274ae374a59bc17b5f33c6/pics/card/douban-app-logo.png 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 01:36:58 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 2579
+X-Via 1.1 xixianxiazai55:8080 (Cdn Cache Server V2.0), 1.1 tzhdx30:10 (Cdn Cache Server V2.0)
+Expires Tue, 18 Oct 2016 01:36:58 GMT
+
+
+request121:
+Request:http://img3.douban.com/f/talion/ee8e0c54293aefb5709ececbdf082f8091ad5e49/js/card/zepto.min.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 26 Sep 2015 03:43:36 GMT
+Content-Encoding gzip
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type application/x-javascript
+Cache-Control max-age=31536000
+Transfer-Encoding chunked
+Connection keep-alive
+X-Via 1.1 xixianxiazai55:8111 (Cdn Cache Server V2.0), 1.1 zhoudianxin34:8 (Cdn Cache Server V2.0)
+Expires Sun, 25 Sep 2016 03:43:36 GMT
+
+
+request122:
+Request:http://img3.douban.com/f/talion/603427ec607d638d114e727a48fa7677023e0501/js/card/main.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 26 Sep 2015 17:46:08 GMT
+Content-Encoding gzip
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type application/x-javascript
+Cache-Control max-age=31536000
+Transfer-Encoding chunked
+Connection keep-alive
+X-Via 1.1 xxxz56:8110 (Cdn Cache Server V2.0), 1.1 tzhdx33:4 (Cdn Cache Server V2.0)
+Expires Sun, 25 Sep 2016 17:46:08 GMT
+
+
+request123:
+Request:http://img3.douban.com/f/talion/3f94069299824cc03dbdac2464595c047453da0c/js/card/ga.js 
+GET
+Cookie: 
+Header: 
+Accept */*
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Sat, 26 Sep 2015 03:43:44 GMT
+Content-Encoding gzip
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type application/x-javascript
+Cache-Control max-age=31536000
+Transfer-Encoding chunked
+Connection keep-alive
+X-Via 1.1 tzh59:8106 (Cdn Cache Server V2.0), 1.1 taizhoudianxin35:8 (Cdn Cache Server V2.0)
+Expires Sun, 25 Sep 2016 03:43:44 GMT
+
+
+request124:
+Request:http://www.google-analytics.com/analytics.js 
+GET
+Cookie: 
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host www.google-analytics.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer http://m.douban.com/group/topic/28044745/
+Connection keep-alive
+If-Modified-Since Thu, 10 Sep 2015 10:52:20 GMT
+
+queryString: 
+
+Response:304 
+
+content:   
+
+Cookie: 
+Header: 
+Date Mon, 19 Oct 2015 05:19:18 GMT
+Server GFE/2.0
+Age 6058
+Expires Mon, 19 Oct 2015 07:19:18 GMT
+
+
+request125:
+Request:http://www.google-analytics.com/r/collect?v=1&_v=j39&a=1766776331&t=pageview&_s=1&dl=http%3A%2F%2Fm.douban.com%2Fgroup%2Ftopic%2F28044745%2F&dr=http%3A%2F%2Fm.baidu.com%2Ffrom%3D844b%2Fbd_page_type%3D1%2Fssid%3D0%2Fuid%3D0%2Fpu%3Dsz%25401320_1001%252Cta%2540iphone_2_4.2_3_537%2Fbaiduid%3D498FB2AA4AA3DD7B7A500D58F62F3ABC%2Fw%3D0_10_test%2Ft%3Diphone%2Fl%3D1%2Ftc%3Fref%3Dwww_iphone%26lid%3D9754714589066718698%26order%3D10%26vit%3Dosres%26tj%3Dwww_normal_10_0_10_title%26waput%3D1%26waplogo%3D1%26cltj%3Dnormal_title%26dict%3D-1%26title%3Dtest%26sec%3D7255%26di%3D21828c17e66e3071%26bdenc%3D1%26tch%3D124.0.0.0.0.0%26nsrc%3DIlPT2AEptyoA_yixCFOxXnANedT62v3IGtiZKjlW1zT5nk_qva02JsRpVy3qAp7CHFX5xyPQpxs2wHCf_GIjzBAx&ul=zh-cn&de=UTF-8&dt=test%20-%20%E5%B0%8F%E7%BB%84%E8%AF%9D%E9%A2%98%20-%20%E8%B1%86%E7%93%A3&sd=24-bit&sr=360x640&vp=360x640&je=1&_u=AEAAAEABI~&jid=1111295570&cid=669952675.1445238017&tid=UA-53594431-3&_r=1&z=162886270 
+GET
+Cookie: 
+Header: 
+Accept image/webp,image/*,*/*;q=0.8
+Connection keep-alive
+Accept-Encoding gzip, deflate, sdch
+Referer http://m.douban.com/group/topic/28044745/
+Host www.google-analytics.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+
+queryString: 
+v 1
+_v j39
+a 1766776331
+t pageview
+_s 1
+dl http%3A%2F%2Fm.douban.com%2Fgroup%2Ftopic%2F28044745%2F
+dr http%3A%2F%2Fm.baidu.com%2Ffrom%3D844b%2Fbd_page_type%3D1%2Fssid%3D0%2Fuid%3D0%2Fpu%3Dsz%25401320_1001%252Cta%2540iphone_2_4.2_3_537%2Fbaiduid%3D498FB2AA4AA3DD7B7A500D58F62F3ABC%2Fw%3D0_10_test%2Ft%3Diphone%2Fl%3D1%2Ftc%3Fref%3Dwww_iphone%26lid%3D9754714589066718698%26order%3D10%26vit%3Dosres%26tj%3Dwww_normal_10_0_10_title%26waput%3D1%26waplogo%3D1%26cltj%3Dnormal_title%26dict%3D-1%26title%3Dtest%26sec%3D7255%26di%3D21828c17e66e3071%26bdenc%3D1%26tch%3D124.0.0.0.0.0%26nsrc%3DIlPT2AEptyoA_yixCFOxXnANedT62v3IGtiZKjlW1zT5nk_qva02JsRpVy3qAp7CHFX5xyPQpxs2wHCf_GIjzBAx
+ul zh-cn
+de UTF-8
+dt test%20-%20%E5%B0%8F%E7%BB%84%E8%AF%9D%E9%A2%98%20-%20%E8%B1%86%E7%93%A3
+sd 24-bit
+sr 360x640
+vp 360x640
+je 1
+_u AEAAAEABI~
+jid 1111295570
+cid 669952675.1445238017
+tid UA-53594431-3
+_r 1
+z 162886270
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Pragma no-cache
+Date Mon, 19 Oct 2015 07:00:16 GMT
+X-Content-Type-Options nosniff
+Last-Modified Sun, 17 May 1998 03:00:00 GMT
+Server Golfe2
+Content-Type image/gif
+Access-Control-Allow-Origin *
+Cache-Control no-cache, no-store, must-revalidate
+Content-Length 35
+Expires Fri, 01 Jan 1990 00:00:00 GMT
+
+
+request126:
+Request:http://img3.douban.com/f/talion/10a4a913a5715f628e4b598f7f9f2c18621bdcb3/pics/icon/dou48.png 
+GET
+Cookie: _ga:GA1.2.669952675.1445238017;_gat:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer http://m.douban.com/group/topic/28044745/
+Cookie _ga=GA1.2.669952675.1445238017; _gat=1
+Connection keep-alive
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Wed, 30 Sep 2015 11:00:31 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 16404
+X-Via 1.1 xixianxiazai55:88 (Cdn Cache Server V2.0), 1.1 tzhdx33:2 (Cdn Cache Server V2.0)
+Expires Thu, 29 Sep 2016 11:00:31 GMT
+
+
+request127:
+Request:http://img3.douban.com/f/talion/2f3c0bc0f35b031d4535fd993ae3936f4e40e6c8/pics/icon/dou32.png 
+GET
+Cookie: _ga:GA1.2.669952675.1445238017;_gat:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer http://m.douban.com/group/topic/28044745/
+Cookie _ga=GA1.2.669952675.1445238017; _gat=1
+Connection keep-alive
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Wed, 30 Sep 2015 11:00:35 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 17959
+X-Via 1.1 tzh57:8111 (Cdn Cache Server V2.0), 1.1 tzhdx33:8 (Cdn Cache Server V2.0)
+Expires Thu, 29 Sep 2016 11:00:35 GMT
+
+
+request128:
+Request:http://img3.douban.com/f/talion/c970bb0d720963a7392f7dd6c77068bb9925caaf/pics/icon/dou16.png 
+GET
+Cookie: _ga:GA1.2.669952675.1445238017;_gat:1;
+Header: 
+Accept-Encoding gzip, deflate, sdch
+Host img3.douban.com
+Accept-Language zh-CN,zh;q=0.8
+User-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
+Accept */*
+Referer http://m.douban.com/group/topic/28044745/
+Cookie _ga=GA1.2.669952675.1445238017; _gat=1
+Connection keep-alive
+
+queryString: 
+
+Response:200 
+
+content:   
+
+Cookie: 
+Header: 
+Date Wed, 30 Sep 2015 11:00:29 GMT
+Last-Modified Wed, 21 Jan 2004 19:51:30 GMT
+Server dae
+Age 1
+Vary Accept-Encoding
+Content-Type image/png
+Cache-Control max-age=31536000
+Connection keep-alive
+Content-Length 15100
+X-Via 1.1 tzh57:8109 (Cdn Cache Server V2.0), 1.1 zhoudianxin34:10 (Cdn Cache Server V2.0)
+Expires Thu, 29 Sep 2016 11:00:29 GMT
+
+

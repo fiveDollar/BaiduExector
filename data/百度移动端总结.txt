@@ -1,0 +1,75 @@
+cookie
+__bsi
+request 1:https://www.baidu.com/ 
+中获得第一个__bsi
+
+requset 6中
+https://www.baidu.com/static/tj.gif?time=1445237915221 
+用到
+
+
+requset 5中
+https://www.baidu.com/?action=static&ms=1&version=css_page_2@0,css_callapp@0,css_weather@0,css_icon@0,css_plus@0,css_edit@0,css_modal@0,css_widget_sug@0,js_zepto@0,js_index@0,js_banner_ctrl@0,js_inputlog@0,js_bdnow@0,js_tpl_function@0,js_widget_textinput@0,js_widget_sug@0,js_fastclick@0,js_mp@0,js_hash_lib@0,js_utils@0,js_prefetch@0,js_sug@0,js_iscroll@0,js_init@0,js_geolocation@0,js_login@0,js_plus@0,js_md5@0,js_plus_edit@0,js_lswrite@0,js_modal@0,js_baiduloc@0,js_callbaiduapp_android@0&callback=B.getCode&r=16 
+用到
+
+request 5 __bsi ==> request 9 https://www.baidu.com/?ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ms=1&action=getplus&merge=1&plusmd5=%7B%7D&_=1445237915357&callback=jsonp1 
+
+request 9中的__bsi  ===> request16 https://www.baidu.com/static/tj.gif?time=1445237916235
+
+request16 __bsi ==> request 17 https://www.baidu.com/static/tj.gif?time=1445237917249 
+
+request 17 __bsi ==>  **********************  ==>request 55 
+
+
+
+request 10 获得一个 __bsi https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=lbs&clk_info=mainpage&card_index=2&r=1445237915512 
+
+
+
+request 13 获得一个 __bsi https://m.baidu.com/static/search/inapp/lib/openapp-v3-min.js?t=1445237915567 
+
+request 14 获得一个 __bsi https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=21&cst=1&ref=index_iphone&lid=9350759854123656534&w=0_0_&s_os=2&r=1445237915567
+
+request 15 获得一个 __bsi https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ct=10&cst=0&ref=index_iphone&lid=9350759854123656534&w=0_0_&clk_from=page&r=1445237915577
+
+request 56 获得一个 __bsi https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp3&wd=t&_=1445237998642 
+
+request 56 __bsi  ==> request58 https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp4&wd=te&_=1445237999246
+
+request58 _bsi ==> request60  https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp5&wd=tes&_=1445238000158 
+
+request60 _bsi ==> request62  https://m.baidu.com/su?pre=1&p=3&ie=utf-8&from=wise_web&net=1&os=2&sp=240&callback=jsonp6&wd=test&_=1445238000761 
+
+request62 _bsi ==> request74  https://m.baidu.com/tc?tcreq4log=1&ct=22&cst=2 
+
+request 74 __bsi ==> request76 https://m.baidu.com/his?callback=jsonp1&type=3&pic=1&net=1&hisdata=%5B%7B%22kw%22%3A%22test%22%2C%22time%22%3A1445238003%7D%5D&_=1445238003691 
+
+request 76 __bsi ==> request78 https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003704 
+
+request 76 __bsi ==> request79 https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=0&cst=2&ref=www_iphone&lid=9754714589066718698&w=0_10_test&clk_from=wise_ext_inapp@&clk_info=a7_l1&r=1445238003705 
+
+request 76 __bsi ==> request94 https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&bd_page_type=1&uid=0&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537%2Cusm%403&baiduid=498FB2AA4AA3DD7B7A500D58F62F3ABC&ct=9&cst=1&ref=www_iphone&lid=9754714589066718698&w=0_10_test&s_os=2&r=1445238003794 
+
+
+
+
+request59 获得一个 __bsi https://www.baidu.com/s?word=%E8%85%BE%E8%AE%AF&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=7999286&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_3&at=3&ss=100&_=1445237999320 
+
+request 59 __bsi ==> request 61 https://www.baidu.com/s?word=%E7%89%B9%E6%96%AF%E6%8B%89&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000191&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_1&at=3&ss=100&_=1445238000226 
+
+request 61 __bsi ==> request 63 https://www.baidu.com/s?word=test&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=ib&at=3&ss=100&_=1445238000801 
+
+request 61 __bsi ==> request 64 https://www.baidu.com/s?word=test%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_1&at=3&ss=100&_=1445238000803 
+
+
+request 61 __bsi ==> request 65 https://www.baidu.com/s?word=test%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=1&isid=9350759854123656534&sa=is_1&at=3&ss=100&_=1445238000803 
+re
+request 64 __bsi ==> request 68 https://www.baidu.com/s?word=test&tn=iphone&rn=10&wpo=base&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=9350759854123656534&ts=8000790&from=844b&ms=1&mod=2&isid=9350759854123656534&sa=ib&at=3&chk=1445238000&cqid=9754714589066718698&ss=100&_=1445238003451 
+
+request 68 __bsi ==> request 86 hhttps://www.baidu.com/static/tj.gif?time=1445238003760 
+
+request 86 __bsi ==> request 95 https://www.baidu.com/static/tj.gif?time=1445238004915 
+
+ request 95 ==> 96
+
+ 96 ==> 98 ==>100 ==> 102 ==> 104 ==> 105 ==> 107 ==> 108 ==> 109 
