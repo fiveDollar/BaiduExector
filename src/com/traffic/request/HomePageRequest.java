@@ -5,7 +5,7 @@ package com.traffic.request;
 public class HomePageRequest extends BaiduRequest {
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
-	@Override
+
 	public void init(){
 		setScheme("https");
 		setHost("www.baidu.com");

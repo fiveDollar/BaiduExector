@@ -13,7 +13,7 @@ import org.jsoup.nodes.Document;
 import HttpClientUtil.EntityReader;
 import HttpClientUtil.UriBuilder;
 
-import com.traffic.comm_class.MyRespone;
+import com.traffic.Response.MyRespone;
 
 public class Tcre3 {
 	public String scheme = "https";

@@ -11,7 +11,7 @@ import org.apache.http.entity.BufferedHttpEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.protocol.BasicHttpContext;
 
-import com.traffic.comm_class.MyRespone;
+import com.traffic.Response.MyRespone;
 
 public class GetSender {
 	public static MyRespone sendGet(final HttpGet httpGet,final CloseableHttpClient httpClient){
@@ -26,18 +26,14 @@ public class GetSender {
 			
 			httpGet.setConfig(requestConfig);
 			
-			
-			
 			Thread thread_start = new Thread(new Runnable() {
 				public void run() {// 用一个独立的线程启动WebDriver
 				try {
 					final CloseableHttpResponse httpResponse = httpClient.execute(httpGet, httpContext);
 					final BufferedHttpEntity bhe = new BufferedHttpEntity(httpResponse.getEntity());
-//					bhe.
 					myR.setBhe(bhe);
 					myR.setHttpClientContext(httpContext);
 				} catch (Exception e) {
-//					e.printStackTrace();
 				}
 				
 				}

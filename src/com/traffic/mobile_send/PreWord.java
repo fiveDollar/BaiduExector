@@ -14,7 +14,7 @@ import org.jsoup.nodes.Element;
 import HttpClientUtil.EntityReader;
 import HttpClientUtil.UriBuilder;
 
-import com.traffic.comm_class.MyRespone;
+import com.traffic.Response.MyRespone;
 
 public class PreWord {
 	public String scheme = "https";

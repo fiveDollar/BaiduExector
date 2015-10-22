@@ -108,6 +108,7 @@ public abstract class BaiduRequest implements BaiduRequestInterface{
 		HttpGet httpGet = new HttpGet();
 		httpGet.setURI(getURI());
 		httpGet.setHeaders(headers);
+		//set timeOut
 		RequestConfig requestConfig = RequestConfig.custom()
 				.setSocketTimeout(socketTimeout)
 				.setConnectTimeout(connectTimeout)
@@ -116,6 +117,4 @@ public abstract class BaiduRequest implements BaiduRequestInterface{
 		return httpGet;
 	}
 
-
-	
 }

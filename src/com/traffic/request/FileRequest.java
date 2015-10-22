@@ -1,10 +1,23 @@
 package com.traffic.request;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import org.apache.http.Header;
+import org.apache.http.NameValuePair;
+import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.message.BasicNameValuePair;
+import org.jsoup.nodes.Document;
+
+import com.traffic.Response.MyRespone;
+import com.traffic.httpclientUtil.CookieUtil;
+
 public class FileRequest extends BaiduRequest {
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
-	@Override
-	public void init() {
+	
+	public void init(MyRespone homeResponse,Document doc) {
 		setScheme("https");
 		setHost("www.baidu.com");
 		setPath("/");
@@ -12,10 +25,30 @@ public class FileRequest extends BaiduRequest {
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
+		setCookie(homeResponse);
+		setParamar(doc);
+		
 	}
 	
-	public void setParamar(){
-		String paramerStr = "?action=static&ms=1&version=css_page_2@0,css_callapp@0,css_weather@0,css_icon@0,css_plus@0,css_edit@0,css_modal@0,css_widget_sug@0,js_zepto@0,js_index@0,js_banner_ctrl@0,js_inputlog@0,js_bdnow@0,js_tpl_function@0,js_widget_textinput@0,js_widget_sug@0,js_fastclick@0,js_mp@0,js_hash_lib@0,js_utils@0,js_prefetch@0,js_sug@0,js_iscroll@0,js_init@0,js_geolocation@0,js_login@0,js_plus@0,js_md5@0,js_plus_edit@0,js_lswrite@0,js_modal@0,js_baiduloc@0,js_callbaiduapp_android@0&callback=B.getCode&r=16";
+	public void setCookie(MyRespone myResponse){
+		Header[] headers = myResponse.getHttpClientContext().getResponse().getAllHeaders();
+		BasicCookieStore cookieStore = new BasicCookieStore(); 
+		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "BAIDUID"));
+		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "H_WISE_SIDS"));
+		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "__bsi"));
+		setCookieStore(cookieStore);
 	}
-	
+
+	public void setParamar(Document doc){
+		List<NameValuePair> parameters = new ArrayList<NameValuePair>();
+		parameters.add(new BasicNameValuePair("action", "static"));
+		parameters.add(new BasicNameValuePair("ms", "1"));
+		parameters.add(new BasicNameValuePair("version", getVersion(doc)));
+		parameters.add(new BasicNameValuePair("callback","B.getCode"));
+		parameters.add(new BasicNameValuePair("r",new Random().nextInt(1000)+""));
+		setParameters(parameters);
+	}
+	private String getVersion(Document doc){
+		return doc.select("[data-version]").attr("data-version").replaceAll("@\\d", "@0");
+	}
 }

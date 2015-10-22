@@ -8,7 +8,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import HttpClientUtil.GetSender;
 import HttpClientUtil.MyHttpClientBuilder;
 
-import com.traffic.comm_class.MyRespone;
+import com.traffic.Response.MyRespone;
 import com.traffic.proxy.MyProxy;
 
 public class TgifSend implements Runnable{

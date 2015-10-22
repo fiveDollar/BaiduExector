@@ -9,7 +9,7 @@ import org.apache.http.impl.cookie.BasicClientCookie;
 
 import HttpClientUtil.UriBuilder;
 
-import com.traffic.comm_class.MyRespone;
+import com.traffic.Response.MyRespone;
 
 public class Tgif {
 	public static String scheme = "https";
