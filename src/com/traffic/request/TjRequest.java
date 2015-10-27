@@ -10,7 +10,6 @@ import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
-import com.traffic.Response.MyRespone;
 import com.traffic.httpclientUtil.CookieUtil;
 
 public class TjRequest extends BaiduRequest{
@@ -20,15 +19,15 @@ public class TjRequest extends BaiduRequest{
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(MyRespone homeResponse,Document doc,MyRespone lastResponse) {
+	public void init(Header[] homeHeaders,Document doc,Header[] lastHeaders) {
 		setScheme("https");
 		setHost("www.baidu.com");
-		setPath("/");
+		setPath("/static/tj.gif");
 		setHeaderStr("Accept-Encoding gzip, deflate, sdch\r\nHost www.baidu.com\r\nAccept-Language zh-CN,zh;q=0.8\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nccept image/webp,image/*,*/*;q=0.8\r\nReferer https://www.baidu.com/\r\nConnection keep-alive");
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(homeResponse,lastResponse);
+		setCookie(homeHeaders,lastHeaders);
 		setDoc(doc);
 		setParamar();
 	}
@@ -39,14 +38,14 @@ public class TjRequest extends BaiduRequest{
 		setParameters(parameters);
 	}
 	
-	public void setCookie(MyRespone homeResponse,MyRespone lastResponse){
+	public void setCookie(Header[] homeHeaders,Header[] lastHeaders){
 		BasicCookieStore cookieStore = new BasicCookieStore();
-		Header[] homeHeaders = homeResponse.getHttpClientContext().getResponse().getAllHeaders();
 		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "BAIDUID"));
 		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "H_WISE_SIDS"));
-		if(lastResponse==null)
+		if(lastHeaders==null)
 			cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "__bsi"));
 		else{
+			cookieStore.addCookie(CookieUtil.GetCookieFromHeader(lastHeaders, "__bsi"));
 			BasicClientCookie plus_lsv =  CookieUtil.CookieBuilder("plus_lsv", doc.select("[data-lsversion]").attr("data-lsversion"), getHost(), "/");
 			cookieStore.addCookie(plus_lsv);
 			BasicClientCookie Plus =  CookieUtil.CookieBuilder("PLUS", "1", getHost(), "/");

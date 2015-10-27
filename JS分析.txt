@@ -42,4 +42,15 @@ localStore({type:"index"})
   prefix Version value
 
 
+
+
+
+  https://m.baidu.com/tc?tcreq4log=1&ssid=0&from=844b&pu=sz%401320_1001%2Cta%40iphone_2_4.2_3_537&qid=8439557863120785558&ct=10&cst=1&ref=index_iphone&lid=8439557863120785558&&clk_from=lbs&clk_info=mainpage&card_index=2&r=1445580360523
+
+
+  w=0_0_
+
+
+  lid=o.attr("data-lid")
   
+  w = $("#commonBase")attr("data-pn") + "_" + $("#commonBase")attr("data-rn") + "_" + encodeURIComponent($("#commonBase")attr("data-query") || "")
