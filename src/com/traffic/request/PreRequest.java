@@ -9,7 +9,7 @@ import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
-import com.traffic.Response.MyRespone;
+import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 
 public class PreRequest extends BaiduRequest{

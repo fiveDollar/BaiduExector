@@ -10,14 +10,14 @@ import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
-import com.traffic.Response.MyRespone;
+import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 
 public class FileRequest extends BaiduRequest {
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	
-	public void init(MyRespone homeResponse,Document doc) {
+	public void init(Header[] headers,Document doc) {
 		setScheme("https");
 		setHost("www.baidu.com");
 		setPath("/");
@@ -25,17 +25,17 @@ public class FileRequest extends BaiduRequest {
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(homeResponse);
+		setCookie(headers);
 		setParamar(doc);
 		
 	}
 	
-	public void setCookie(MyRespone myResponse){
-		Header[] headers = myResponse.getHttpClientContext().getResponse().getAllHeaders();
+	public void setCookie(Header[] headers){
 		BasicCookieStore cookieStore = new BasicCookieStore(); 
 		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "BAIDUID"));
 		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "H_WISE_SIDS"));
 		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "__bsi"));
+		
 		setCookieStore(cookieStore);
 	}
 

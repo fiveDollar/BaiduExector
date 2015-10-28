@@ -11,12 +11,12 @@ import org.apache.http.entity.BufferedHttpEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.protocol.BasicHttpContext;
 
-import com.traffic.Response.MyRespone;
+import com.traffic.Response.MyResponse;
 
 public class GetSender {
-	public static MyRespone sendGet(final HttpGet httpGet,final CloseableHttpClient httpClient){
+	public static MyResponse sendGet(final HttpGet httpGet,final CloseableHttpClient httpClient){
 		final HttpClientContext httpContext = HttpClientContext.adapt(new BasicHttpContext());
-		final MyRespone myR =  new MyRespone(httpContext, null);
+		final MyResponse myR =  new MyResponse(httpContext, null);
 		try{
 			
 			RequestConfig requestConfig = RequestConfig.custom()

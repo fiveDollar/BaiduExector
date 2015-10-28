@@ -3,15 +3,17 @@ import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.entity.BufferedHttpEntity;
 
 
-public class MyRespone {
+public class MyResponse {
 	private HttpClientContext httpClientContext;
 	private BufferedHttpEntity bhe;
 	public int flag=0;
-	public MyRespone(HttpClientContext httpClientContext,BufferedHttpEntity bhe){
+	public MyResponse(HttpClientContext httpClientContext,BufferedHttpEntity bhe){
 		this.httpClientContext = httpClientContext;
 		this.bhe = bhe;
 	}
-	
+	public MyResponse(BufferedHttpEntity bhe){
+		this.bhe = bhe;
+	}
 	public HttpClientContext getHttpClientContext() {
 		return httpClientContext;
 	}

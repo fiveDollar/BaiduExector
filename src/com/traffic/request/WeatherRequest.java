@@ -5,10 +5,11 @@ import java.util.List;
 import org.apache.http.Header;
 import org.apache.http.NameValuePair;
 import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
-import com.traffic.Response.MyRespone;
+import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
@@ -19,15 +20,15 @@ public class WeatherRequest extends BaiduRequest{
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(Header[] headers,Document doc,MyRespone lastResponse) {
+	public void init(Header[] headers,Document doc,Header[] lastHeaders) {
 		setScheme("https");
 		setHost("www.baidu.com");
 		setPath("/");
-		setHeaderStr("Accept-Encoding gzip, deflate, sdch\r\nHost www.baidu.com\r\nAccept-Language zh-CN,zh;q=0.8\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nAccept */*\r\nReferer https://www.baidu.com/\r\nCookie BAIDUID=498FB2AA4AA3DD7B7A500D58F62F3ABC:FG=1; H_WISE_SIDS=100414_100805_100427_100935_100040_100295_100288_100381; __bsi=18308526112213641690_00_0_I_R_48_0303_C02F_N_I_I_0\r\nConnection keep-alive");
+		setHeaderStr("Accept-Encoding gzip, deflate, sdch\r\nHost www.baidu.com\r\nAccept-Language zh-CN,zh;q=0.8\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nAccept */*\r\nReferer https://www.baidu.com/\r\nConnection keep-alive");
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(headers);
+		setCookie(headers,lastHeaders);
 		setDoc(doc);
 		setParamar();
 	}
@@ -44,12 +45,15 @@ public class WeatherRequest extends BaiduRequest{
 		setParameters(parameters);
 	}
 	
-	private void setCookie(Header[] headers){
-		BasicCookieStore cookieStore = new BasicCookieStore(); 
-		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "BAIDUID"));
-		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "H_WISE_SIDS"));
-		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(headers, "__bsi"));
-		setCookieStore(cookieStore);
+	private void setCookie(Header[] homeHeaders,Header[] lastHeaders){
+		BasicCookieStore tmpCookieStore = new BasicCookieStore();
+		tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "BAIDUID"));
+		tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "H_WISE_SIDS"));
+		if(lastHeaders!=null)
+			tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(lastHeaders, "__bsi"));
+		else
+			tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "__bsi"));
+		setCookieStore(tmpCookieStore);
 	}
 
 	public long getStartTime() {

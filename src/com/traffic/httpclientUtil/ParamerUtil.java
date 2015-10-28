@@ -19,7 +19,7 @@ public class ParamerUtil {
 		String ssidStr = doc.select("#commonBase").attr("data-prepath");
 		List<NameValuePair> parameters = new ArrayList<NameValuePair>();
 		for (String parameterStr : ssidStr.split("#")) {
-			if(parameters.contains("ssid")||parameters.contains("from")||parameters.contains("pu")||parameters.contains("qid")){
+			if(parameterStr.contains("ssid")||parameterStr.contains("from")||parameterStr.contains("pu")||parameterStr.contains("qid")||parameterStr.contains("logid")){
 				parameters.add(new BasicNameValuePair(parameterStr.split("=",2)[0],parameterStr.split("=",2)[1]));
 			}
 		}

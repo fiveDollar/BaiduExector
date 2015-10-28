@@ -83,7 +83,9 @@ public class MyHttpClientBuilder {
 		DefaultProxyRoutePlanner routePlanner = new DefaultProxyRoutePlanner(
 				proxy);
 		HttpClientBuilder httpClientBuilder = HttpClients.custom()
-				.setRoutePlanner(routePlanner).setRetryHandler(myRetryHandler).setKeepAliveStrategy(keepAliveStrat);
+				.setRoutePlanner(routePlanner)
+				.setRetryHandler(myRetryHandler)
+				.setKeepAliveStrategy(keepAliveStrat);
 		if (cs != null) {
 			httpClientBuilder.setDefaultCookieStore(cs);
 		}

@@ -9,7 +9,7 @@ import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
-import com.traffic.Response.MyRespone;
+import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
@@ -20,7 +20,7 @@ public class OpenappRequest extends BaiduRequest{
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(Header[] headers,Document doc,MyRespone lastResponse) {
+	public void init(Header[] headers,Document doc,MyResponse lastResponse) {
 		setScheme("https");
 		setHost("m.baidu.com");
 		setPath("/static/search/inapp/lib/openapp-v3-min.js");

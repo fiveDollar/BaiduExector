@@ -24,10 +24,10 @@ public class TjRequest extends BaiduRequest{
 		setHost("www.baidu.com");
 		setPath("/static/tj.gif");
 		setHeaderStr("Accept-Encoding gzip, deflate, sdch\r\nHost www.baidu.com\r\nAccept-Language zh-CN,zh;q=0.8\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nccept image/webp,image/*,*/*;q=0.8\r\nReferer https://www.baidu.com/\r\nConnection keep-alive");
+		setCookie(homeHeaders,lastHeaders);
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(homeHeaders,lastHeaders);
 		setDoc(doc);
 		setParamar();
 	}
@@ -39,18 +39,20 @@ public class TjRequest extends BaiduRequest{
 	}
 	
 	public void setCookie(Header[] homeHeaders,Header[] lastHeaders){
-		BasicCookieStore cookieStore = new BasicCookieStore();
-		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "BAIDUID"));
-		cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "H_WISE_SIDS"));
+		
+		BasicCookieStore tmpCookieStore = new BasicCookieStore();
+		tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "BAIDUID"));
+		tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "H_WISE_SIDS"));
 		if(lastHeaders==null)
-			cookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "__bsi"));
+			tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(homeHeaders, "__bsi"));
 		else{
-			cookieStore.addCookie(CookieUtil.GetCookieFromHeader(lastHeaders, "__bsi"));
+			tmpCookieStore.addCookie(CookieUtil.GetCookieFromHeader(lastHeaders, "__bsi"));
 			BasicClientCookie plus_lsv =  CookieUtil.CookieBuilder("plus_lsv", doc.select("[data-lsversion]").attr("data-lsversion"), getHost(), "/");
-			cookieStore.addCookie(plus_lsv);
+			tmpCookieStore.addCookie(plus_lsv);
 			BasicClientCookie Plus =  CookieUtil.CookieBuilder("PLUS", "1", getHost(), "/");
-			cookieStore.addCookie(Plus);
+			tmpCookieStore.addCookie(Plus);
 		}
+		setCookieStore(tmpCookieStore);
 	}
 
 	public long getStartTime() {

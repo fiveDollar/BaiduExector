@@ -91,16 +91,13 @@ public abstract class BaiduRequest implements BaiduRequestInterface{
 	 * 
 	 */
 	public URI getURI() throws URISyntaxException {
-		
-		URIBuilder uriBuilder = new URIBuilder();
-		uriBuilder.setScheme(scheme);
-		uriBuilder.setHost(host);
-		uriBuilder.setPath(path);
-		
-		if(parameters!=null)
-			uriBuilder.addParameters(parameters);
-		
-		return uriBuilder.build();
+		String uriStr = scheme+"://"+host+path+"?";
+
+		if(parameters!=null){
+			for (NameValuePair parameter : parameters) 
+				uriStr += parameter.getName()+"="+parameter.getValue()+"&";
+		}
+		return new URI(uriStr.substring(0, uriStr.length()-1));
 	}
 	
 	@Override
