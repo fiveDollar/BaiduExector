@@ -1,5 +1,6 @@
 package com.traffic.httpclientUtil;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.http.Header;
@@ -28,6 +29,26 @@ public class CookieUtil {
 		return null;
 	}
 	
+	public static BasicClientCookie GetCookieFromHeader(Header[] headers,String key,String domain) {
+		for (Header header : headers) {
+			String value = header.getValue();
+			if(value.contains(key)){
+				String pramars[] = value.split(";");
+				String cookieValue = "";
+				String cookiePath = "";
+				for (String p : pramars) {
+					if (p.contains(key))
+						cookieValue = p.split(key+"=")[1];
+					
+					if (p.contains("path"))
+						cookiePath = p.split("path=")[1];
+				}
+				return CookieBuilder(key, cookieValue, domain, cookiePath);
+			}
+		}
+		return null;
+	}
+	
 	public static BasicClientCookie CookieBuilder(String key,String value,String domain,String path){
 		BasicClientCookie cookie =new BasicClientCookie(key, value);
 		cookie.setDomain(domain);
@@ -39,7 +60,10 @@ public class CookieUtil {
 		BasicClientCookie cookie =new BasicClientCookie(key, value);
 		cookie.setDomain(domain);
 		cookie.setPath(path);
+	
 		cookie.setExpiryDate(new Date(System.currentTimeMillis()+expires));
+//		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH");
+//		System.out.println(sdf.format(new Date(System.currentTimeMillis()+expires)));
 		return cookie;
 	}
 	

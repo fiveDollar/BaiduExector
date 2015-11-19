@@ -5,10 +5,10 @@ import java.net.URISyntaxException;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.HttpGet;
 
-import com.traffic.request.BaiduRequest;
+import com.traffic.request.MyRequest;
 
 public class HttpGetBuilderUtil {
-	public static HttpGet Builder(BaiduRequest baiduRequest){
+	public static HttpGet Builder(MyRequest baiduRequest){
 		HttpGet httpGet = new HttpGet();
 		try {
 			httpGet.setURI(baiduRequest.getURI());

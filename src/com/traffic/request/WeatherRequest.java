@@ -13,7 +13,7 @@ import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class WeatherRequest extends BaiduRequest{
+public class WeatherRequest extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;

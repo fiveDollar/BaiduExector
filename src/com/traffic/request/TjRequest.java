@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 
 import com.traffic.httpclientUtil.CookieUtil;
 
-public class TjRequest extends BaiduRequest{
+public class TjRequest extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;

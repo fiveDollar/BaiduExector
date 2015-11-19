@@ -13,23 +13,21 @@ import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class TCRequest4 extends BaiduRequest{
+public class TCRequest4 extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(Header[] headers,Document doc,Header[] lastHeaders) {
+	public void init(Document doc) {
 		setScheme("https");
 		setHost("m.baidu.com");
 		setPath("/tc");
 		setHeaderStr("Accept-Encoding gzip, deflate, sdch\r\nHost m.baidu.com\r\nAccept-Language zh-CN,zh;q=0.8\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nAccept image/webp,image/*,*/*;q=0.8\r\nReferer https://www.baidu.com/\r\nConnection keep-alive");
-		
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(headers,lastHeaders);
 		setDoc(doc);
 		setParamar();
 	}
@@ -40,9 +38,15 @@ public class TCRequest4 extends BaiduRequest{
 		List<NameValuePair> ssidParameters = ParamerUtil.getSsidParameters(doc);
 		parameters.add(new BasicNameValuePair("tcreq4log","1"));
 		parameters.addAll(ssidParameters);
-		parameters.add(new BasicNameValuePair("ct","22"));
-		parameters.add(new BasicNameValuePair("cst","2"));
-		setParameters(parameters);
+		parameters.add(new BasicNameValuePair("ct","10"));
+		parameters.add(new BasicNameValuePair("cst","0"));
+		parameters.add(new BasicNameValuePair("ref","index_iphone"));
+		parameters.add(new BasicNameValuePair("lid",ssidParameters.get(3).getValue()));
+		parameters.add(new BasicNameValuePair("w",doc.select("#commonBase").attr("data-pn") + "_" + doc.select("#commonBase").attr("data-rn") + "_"));
+		parameters.add(new BasicNameValuePair("sid",doc.select("#commonBase").attr("data-sids")));
+		parameters.add(new BasicNameValuePair("clk_from","page"));
+		parameters.add(new BasicNameValuePair("r",startTime+""));
+		setParameters(parameters);	
 	}
 	
 	private void setCookie(Header[] headers,Header[] lastHeaders){

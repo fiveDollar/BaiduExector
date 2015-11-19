@@ -16,7 +16,7 @@ import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
 
-public class WordFinalRequest1 extends BaiduRequest{
+public class WordFinalRequest1 extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;

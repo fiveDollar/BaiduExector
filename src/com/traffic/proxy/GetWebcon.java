@@ -53,7 +53,6 @@ public class GetWebcon {
 					bos.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			connection.disconnect();
@@ -86,7 +85,6 @@ public class GetWebcon {
 		} catch (MalformedURLException e1) {
 			return "chaoshi";
 		} catch (IOException e) {
-		//	e.printStackTrace();
 			return "chaoshi";
 		} finally {
 			try {
@@ -97,7 +95,6 @@ public class GetWebcon {
 					bos.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		

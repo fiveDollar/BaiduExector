@@ -14,7 +14,7 @@ import org.jsoup.nodes.Document;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class WordFinalRequset extends BaiduRequest{
+public class WordFinalRequset extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;

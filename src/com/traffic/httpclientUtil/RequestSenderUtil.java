@@ -12,13 +12,18 @@ import com.traffic.Response.MyResponse;
 
 
 public class RequestSenderUtil {
+	/**
+	 * @param httpClient
+	 * @param httpGet
+	 * @param hcc
+	 * @param isWebCon 是否需要读取response内容
+	 * @return
+	 */
 	public static MyResponse send(CloseableHttpClient httpClient,HttpGet httpGet,HttpClientContext hcc,boolean isWebCon){
 		CloseableHttpResponse httpResponse = null;
 		try {
 			httpResponse = httpClient.execute(httpGet, hcc);
-			
 			BufferedHttpEntity bhe = null;
-			
 			if(httpResponse.getStatusLine().getStatusCode()==200&&isWebCon){
 				bhe = new BufferedHttpEntity(httpResponse.getEntity());
 			}else if(httpResponse.getStatusLine().getStatusCode()!=200){

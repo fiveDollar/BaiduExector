@@ -13,7 +13,7 @@ import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class TCRequest extends BaiduRequest{
+public class TCRequest1 extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;
@@ -33,6 +33,8 @@ public class TCRequest extends BaiduRequest{
 	}
 	
 	private void setParamar(){
+//		ct=10&cst=1&ref=index_iphone&lid=8747458330539202187&w=0_0_&clk_from=lbs&clk_info=mainpage&card_index=2&r=1447825444222
+//		ct=10&cst=1&clk_from=mainpage&clk_info=index&ref=index_iphone&lid=11701011734512947061&w=0_0_
 		List<NameValuePair> parameters = new ArrayList<NameValuePair>();
 		startTime = System.currentTimeMillis();
 		List<NameValuePair> ssidParameters = ParamerUtil.getSsidParameters(doc);
@@ -40,14 +42,15 @@ public class TCRequest extends BaiduRequest{
 		parameters.addAll(ssidParameters);
 		parameters.add(new BasicNameValuePair("ct","10"));
 		parameters.add(new BasicNameValuePair("cst","1"));
+		parameters.add(new BasicNameValuePair("clk_from","mainpage"));
+		parameters.add(new BasicNameValuePair("clk_info","index"));
 		parameters.add(new BasicNameValuePair("ref","index_iphone"));
 		parameters.add(new BasicNameValuePair("lid",ssidParameters.get(3).getValue()));
 		parameters.add(new BasicNameValuePair("w",doc.select("#commonBase").attr("data-pn") + "_" + doc.select("#commonBase").attr("data-rn") + "_"));
-		parameters.add(new BasicNameValuePair("clk_from","lbs"));
-		parameters.add(new BasicNameValuePair("clk_info","mainpage"));
+//		parameters.add(new BasicNameValuePair("sid",doc.select("#commonBase").attr("data-sids")));
 		//有可能是3
-		parameters.add(new BasicNameValuePair("card_index","2"));
-		parameters.add(new BasicNameValuePair("r",startTime+""));
+//		parameters.add(new BasicNameValuePair("card_index","2"));
+//		parameters.add(new BasicNameValuePair("r",startTime+""));
 		setParameters(parameters);
 	}
 	

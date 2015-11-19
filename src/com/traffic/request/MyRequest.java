@@ -12,7 +12,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.message.BasicHeader;
 
-public abstract class BaiduRequest implements BaiduRequestInterface{
+public abstract class MyRequest implements MyRequestInterface{
 	private String scheme;
 	private String host;
 	private String path;

@@ -13,7 +13,7 @@ import org.jsoup.nodes.Document;
 import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 
-public class FileRequest extends BaiduRequest {
+public class FileRequest extends MyRequest {
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	

@@ -13,22 +13,22 @@ import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class OpenappRequest extends BaiduRequest{
+public class OpenappRequest extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(Header[] headers,Document doc,MyResponse lastResponse) {
+	public void init(Document doc) {
 		setScheme("https");
 		setHost("m.baidu.com");
 		setPath("/static/search/inapp/lib/openapp-v3-min.js");
-		setHeaderStr(":host m.baidu.com\r\naccept-encoding gzip, deflate, sdch\r\naccept-language zh-CN,zh;q=0.8\r\nuser-agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\n:path /static/search/inapp/lib/openapp-v3-min.js?t=1445237915567\r\naccept */*\r\n:version HTTP/1.1\r\nreferer https://www.baidu.com/\r\n:scheme https\r\n:method GET");
+		setHeaderStr("Host m.baidu.com\r\nConnection keep-alive\r\nAccept */*\r\nUser-Agent Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36\r\nReferer https://www.baidu.com/\r\nAccept-Encoding gzip, deflate, sdch\r\nAccept-Language zh-CN,zh;q=0.8");
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(headers);
+//		setCookie(headers);
 		setDoc(doc);
 		setParamar();
 	}

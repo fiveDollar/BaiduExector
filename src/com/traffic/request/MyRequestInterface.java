@@ -4,6 +4,6 @@ import java.net.URISyntaxException;
 
 import org.apache.http.client.methods.HttpGet;
 
-public interface BaiduRequestInterface {
+public interface MyRequestInterface {
 	public HttpGet BuilderHttpGet() throws URISyntaxException;
 }

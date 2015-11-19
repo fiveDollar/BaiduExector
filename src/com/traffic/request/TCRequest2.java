@@ -13,14 +13,14 @@ import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
 import com.traffic.httpclientUtil.ParamerUtil;
 
-public class TCRequest2 extends BaiduRequest{
+public class TCRequest2 extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
 	final int HOMEPAGECONNECTTIMEOUT = 3000;
 	private long startTime = 0;
 	private long endTime = 0;
 	private Document doc;
 	
-	public void init(Header[] headers,Document doc,MyResponse lastResponse) {
+	public void init(Document doc) {
 		setScheme("https");
 		setHost("m.baidu.com");
 		setPath("/tc");
@@ -28,7 +28,6 @@ public class TCRequest2 extends BaiduRequest{
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(headers);
 		setDoc(doc);
 		setParamar();
 	}
@@ -39,15 +38,17 @@ public class TCRequest2 extends BaiduRequest{
 		List<NameValuePair> ssidParameters = ParamerUtil.getSsidParameters(doc);
 		parameters.add(new BasicNameValuePair("tcreq4log","1"));
 		parameters.addAll(ssidParameters);
-		parameters.add(new BasicNameValuePair("ct","21"));
+		parameters.add(new BasicNameValuePair("ct","10"));
 		parameters.add(new BasicNameValuePair("cst","1"));
 		parameters.add(new BasicNameValuePair("ref","index_iphone"));
 		parameters.add(new BasicNameValuePair("lid",ssidParameters.get(3).getValue()));
 		parameters.add(new BasicNameValuePair("w",doc.select("#commonBase").attr("data-pn") + "_" + doc.select("#commonBase").attr("data-rn") + "_"));
-//		parameters.add(new BasicNameValuePair("clk_from","lbs"));
-//		parameters.add(new BasicNameValuePair("clk_info","mainpage"));
-//		parameters.add(new BasicNameValuePair("card_index","2"));
-		parameters.add(new BasicNameValuePair("s_os","2"));
+		parameters.add(new BasicNameValuePair("sid",doc.select("#commonBase").attr("data-sids")));
+		
+		parameters.add(new BasicNameValuePair("clk_from","lbs"));
+		parameters.add(new BasicNameValuePair("clk_info","mainpage"));
+		parameters.add(new BasicNameValuePair("card_index","2"));
+//		parameters.add(new BasicNameValuePair("s_os","2"));
 		parameters.add(new BasicNameValuePair("r",startTime+""));
 		setParameters(parameters);
 	}
