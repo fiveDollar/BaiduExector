@@ -12,6 +12,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.jsoup.nodes.Document;
 
 import com.traffic.httpclientUtil.CookieUtil;
+import com.traffic.httpclientUtil.ParamerUtil;
 
 public class HisRequest extends MyRequest{
 	final int HOMEPAGESOCKETTIMEOUT = 3000;
@@ -20,7 +21,7 @@ public class HisRequest extends MyRequest{
 	private long endTime = 0;
 	private Document doc;
 	private String word;
-	public void init(Header[] headers,Document doc,String word,Header[] lasHeaders) {
+	public void init(Document doc,String word) {
 		setScheme("https");
 		setHost("m.baidu.com");
 		setPath("/his");
@@ -29,18 +30,19 @@ public class HisRequest extends MyRequest{
 		setHeaders();
 		setSocketTimeout(HOMEPAGESOCKETTIMEOUT);
 		setConnectTimeout(HOMEPAGECONNECTTIMEOUT);
-		setCookie(headers,lasHeaders);
 		setDoc(doc);
 		setParamar();
 	}
 	
 	private void setParamar(){
 		List<NameValuePair> parameters = new ArrayList<NameValuePair>();
-		
+		List<NameValuePair> ssidParameters = ParamerUtil.getSsidParameters(doc);
 		parameters.add(new BasicNameValuePair("callback","jsonp1"));
 		parameters.add(new BasicNameValuePair("type","3"));
 		parameters.add(new BasicNameValuePair("pic","1"));
+		parameters.add(new BasicNameValuePair("lid",ssidParameters.get(3).getValue()));
 		parameters.add(new BasicNameValuePair("net",doc.select("#commonBase").attr("data-tanet")));
+		parameters.add(new BasicNameValuePair("hissid",doc.select("#commonBase").attr("data-hissid")));
 		startTime = System.currentTimeMillis();
 		String startTimeStr = startTime+"";
 		try {

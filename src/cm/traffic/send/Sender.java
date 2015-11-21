@@ -15,10 +15,12 @@ import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 import com.traffic.Response.MyResponse;
 import com.traffic.httpclientUtil.CookieUtil;
@@ -27,6 +29,7 @@ import com.traffic.httpclientUtil.HttpGetBuilderUtil;
 import com.traffic.httpclientUtil.MyHttpClients;
 import com.traffic.httpclientUtil.RequestSenderUtil;
 import com.traffic.request.FileRequest;
+import com.traffic.request.HisRequest;
 import com.traffic.request.HomePageRequest;
 import com.traffic.request.OpenappRequest;
 import com.traffic.request.PreRequest;
@@ -35,7 +38,12 @@ import com.traffic.request.TCRequest2;
 import com.traffic.request.TCRequest3;
 import com.traffic.request.TCRequest4;
 import com.traffic.request.TCRequestShop;
+import com.traffic.request.TCRequestfinal;
+import com.traffic.request.TcResultRequest;
+import com.traffic.request.TcShort;
 import com.traffic.request.WeatherRequest;
+import com.traffic.request.WgifRequest;
+import com.traffic.request.WordFinalRequest1;
 import com.traffic.request.WordPreRequest;
 
 public class Sender {
@@ -141,28 +149,100 @@ public class Sender {
 
 		removeCookie(new String[]{"__bsi"});
 		System.out.println(cs.getCookies());
-		String[] wordSlice = word.split("");
-		String currenWord = "";
-		for (int i = 1; i < wordSlice.length; i++) {
-			System.out.println(wordSlice[i]);
-			PreRequest pr = new PreRequest();
-			currenWord += wordSlice[i];
-			pr.init(doc, i + 1, currenWord);
-			HttpGet prGet = HttpGetBuilderUtil.Builder(pr);
-			MyResponse prResponse = RequestSenderUtil.send(httpClient, prGet,
-					httpContext, true);
-//			printHeader(prResponse.getHttpClientContext().getRequest().getAllHeaders());
-			String jsonStr= EntityReaderUtil.ReadeEntity(prResponse.getBhe(),
-					 "utf-8");
-			System.out.println(jsonStr);
-			ArrayList<String> preWords = praseJson(jsonStr);
-			sendWordPre(preWords, doc);
-			cs.addCookie(CookieUtil.GetCookieFromHeader(prResponse.getHttpClientContext().getResponse().getAllHeaders(), "__bsi","m.baidu.com"));
-//			System.out.println(cs.getCookies());
-		}
-
-
+		PreRequest pr = new PreRequest();
+		pr.init(doc, 1, word);
+		HttpGet prGet = HttpGetBuilderUtil.Builder(pr);
+		MyResponse prResponse = RequestSenderUtil.send(httpClient, prGet,
+				httpContext, true);
+		String jsonStr= EntityReaderUtil.ReadeEntity(prResponse.getBhe(),
+				 "utf-8");
+		System.out.println(jsonStr);
+		ArrayList<String> preWords = praseJson(jsonStr);
+		sendWordPre(preWords, doc);
+		
+		
+		removeCookie(new String[]{"__bsi"});
+		BasicClientCookie BDicon = new BasicClientCookie("BDICON", "10294984.98");
+		BDicon.setDomain("www.baidu.com");
+		BDicon.setPath("/");
+		cs.addCookie(BDicon);
+		
+		WordFinalRequest1 wdfR = new WordFinalRequest1();
+		wdfR.init(doc, word);
+		HttpGet wdfrGet = HttpGetBuilderUtil.Builder(wdfR);
+		MyResponse wdfRRes = RequestSenderUtil.send(httpClient, wdfrGet,
+				httpContext, true);
+		printHeader(wdfRRes.getHttpClientContext().getRequest().getAllHeaders());
+//		String
+		Document secondDoc =Jsoup.parse(EntityReaderUtil.ReadeEntity(wdfRRes.getBhe(), "utf-8"));
+		
+		removeCookie(new String[]{"BDICON"});
+		removeCookie(new String[]{"__bsi"});
+		TcShort tcShort = new TcShort();
+		tcShort.init(doc);
+		HttpGet tcShortGet = HttpGetBuilderUtil.Builder(tcShort);
+		MyResponse tcShortResponse = RequestSenderUtil.send(httpClient, tcShortGet,
+				httpContext, false);
+//		printHeader(tcShortResponse.getHttpClientContext().getRequest().getAllHeaders());
+		
+		
+		removeCookie(new String[]{"__bsi"});
+		HisRequest hisRequst = new HisRequest();
+		hisRequst.init(doc, word);
+		HttpGet hisGet = HttpGetBuilderUtil.Builder(hisRequst);
+		MyResponse hisResponse = RequestSenderUtil.send(httpClient, hisGet, httpContext, false);
+		printHeader(hisResponse.getHttpClientContext().getResponse().getAllHeaders(), "__bsi");
+		removeCookie(new String[]{"__bsi"});
+		System.out.println(httpContext.getCookieStore().getCookies());
+		WgifRequest wGifR = new WgifRequest();
+		wGifR.init(doc, word, secondDoc);
+		HttpGet wGifRGet = HttpGetBuilderUtil.Builder(wGifR);
+		MyResponse wGifGetResponse = RequestSenderUtil.send(httpClient, wGifRGet, httpContext, false);
+		printHeader(wGifGetResponse.getHttpClientContext().getRequest().getAllHeaders());
+		
+		TCRequestfinal trf = new TCRequestfinal();
+		trf.init(secondDoc);
+		
+//		System.out.println(secondDoc.select("[order=5]").select("a").get(0).attr("href"));
+		
+//		printHeader(hisResponse.getHttpClientContext().getRequest().getAllHeaders());
+//		try {
+//			System.out.println(hisRequst.getURI());
+//		} catch (URISyntaxException e) {
+//			e.printStackTrace();
+//		}
+		
+//		System.out.println(tcShortGet.getURI());
+		
+//		String[] wordSlice = word.split("");
+//		String currenWord = "";
+//		for (int i = 1; i < wordSlice.length; i++) {
+//			System.out.println(wordSlice[i]);
+//			PreRequest pr = new PreRequest();
+//			currenWord += wordSlice[i];
+//			pr.init(doc, i + 1, currenWord);
+//			HttpGet prGet = HttpGetBuilderUtil.Builder(pr);
+//			MyResponse prResponse = RequestSenderUtil.send(httpClient, prGet,
+//					httpContext, true);
+//			String jsonStr= EntityReaderUtil.ReadeEntity(prResponse.getBhe(),
+//					 "utf-8");
+//			System.out.println(jsonStr);
+//			ArrayList<String> preWords = praseJson(jsonStr);
+//			sendWordPre(preWords, doc);
+//			cs.addCookie(CookieUtil.GetCookieFromHeader(prResponse.getHttpClientContext().getResponse().getAllHeaders(), "__bsi","m.baidu.com"));
+//		}
+//		
+//		TcResultRequest tcResult = new TcResultRequest();
+//		tcResult.init(doc, word);
+//		HttpGet tcResultGet = HttpGetBuilderUtil.Builder(tcResult);
+//		MyResponse tcResultResponse = RequestSenderUtil.send(httpClient, tcResultGet,
+//				httpContext, false);
+//		printHeader(tcResultResponse.getHttpClientContext().getRequest().getAllHeaders());
+		
+		
 	}
+	
+	
 	public static void removeCookie(String[] removeKey){
 		List<Cookie> cookieList = cs.getCookies();
 		cs.clear();
@@ -182,7 +262,7 @@ public class Sender {
 		
 		
 		for (String preWord : preWords) {
-			removeCookie(new String[]{"__bsi"});
+//			removeCookie(new String[]{"__bsi"});
 			WordPreRequest wordPredRequst = new WordPreRequest();
 			wordPredRequst.init(doc, preWord.split(",")[0], Integer.parseInt(preWord.split(",")[1]));
 			HttpGet wordPreGet = HttpGetBuilderUtil.Builder(wordPredRequst);
@@ -200,8 +280,11 @@ public class Sender {
 		String s[] = jsonStr.split("],")[0].replace("\"", "").split(",");
 		String pre[] = jsonStr.split("pre:\\[")[1].replace("\"", "")
 				.replace("]});", "").split(",");
-		
-		for (int i = 0; i < pre.length; i++) {
+		if(pre[0].equals("1")){
+			preWord.add(word);
+		}
+		for (int i = 1; i < pre.length; i++) {
+//			if()
 			if (pre[i].equals("1"))
 				preWord.add(s[i-1]+","+i);
 		}
